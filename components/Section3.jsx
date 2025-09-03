@@ -4,7 +4,7 @@ import Slider from "./Slider";
 
 const Section3 = () => {
   return (
-    <div className="w-full text-white max-w-7xl mx-auto min-h-screen flex flex-col items-center gap-8 py-16 px-4">
+    <div className="w-full text-white max-w-7xl mx-auto md:min-h-screen flex flex-col items-center gap-8 py-10 md:py-16 px-4">
       <div className="flex flex-col md:flex-row gap-10 md:gap-20 justify-between items-center">
         <div className="flex-[40%] flex flex-col gap-8 justify-center">
           <h3 className="text-3xl md:text-5xl text-center md:text-start capitalize font-bold">
