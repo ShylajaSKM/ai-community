@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${sora.variable} bg-black w-screen overflow-x-hidden`}>
+      <body className={`${sora.variable} bg-black`}>
         <NavBar />
         {children}
       </body>
