@@ -1,3 +1,7 @@
+"use client";
+
+import Slider from "./Slider";
+
 const Section3 = () => {
   return (
     <div className="w-full text-white max-w-7xl mx-auto min-h-screen flex flex-col items-center gap-8 py-16 px-4">
@@ -17,6 +21,9 @@ const Section3 = () => {
             Focused Channels
           </h3>
         </div>
+      </div>
+      <div className="w-[80%]">
+        <Slider />
       </div>
     </div>
   );

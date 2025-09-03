@@ -7,18 +7,6 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 
-// Networking
-// Find other like-minded individuals working on similar projects!
-
-// Community Calls
-// Participate in regular community calls and learn from each other.
-
-// Get Feedback
-// Share your current project and get feedback from the community!
-
-// Find collaborators
-// Need a partner-in-crime for your next project? You’ve come to the best place to find one.
-
 const Section2 = () => {
   const items = [
     {
@@ -90,8 +78,7 @@ const Section2 = () => {
               src={"/hero.png"}
               alt="AI Product Hive"
               fill
-              objectFit="cover"
-              className="rounded"
+              className="rounded cover"
             />
           </div>
           <div className="flex flex-col justify-around">
