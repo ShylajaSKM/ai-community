@@ -172,7 +172,7 @@ const testimonials = [
 export default function Testimonials() {
   console.log(testimonials.length);
   return (
-    <section className="relative container py-10 overflow-x-hidden">
+    <section className="relative container py-10 overflow-hidden">
       <div className="absolute top-20 -left-20 z-10 h-64 w-64 rounded-full bg-blue-500/5 blur-3xl" />
       <div className="absolute -right-20 bottom-20 z-10 h-64 w-64 rounded-full bg-blue-500/5 blur-3xl" />
 
