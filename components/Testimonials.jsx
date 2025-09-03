@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 import { Marquee } from "@/components/ui/marquee";
+import Image from "next/image";
 
 export function TestimonialCard({
   description,
@@ -25,20 +26,13 @@ export function TestimonialCard({
     >
       <div className="text-black text-sm font-normal select-none">
         {description}
-        <div className="flex flex-row py-1">
-          <Star className="size-4 fill-blue-500 text-blue-500" />
-          <Star className="size-4 fill-blue-500 text-blue-500" />
-          <Star className="size-4 fill-blue-500 text-blue-500" />
-          <Star className="size-4 fill-blue-500 text-blue-500" />
-          <Star className="size-4 fill-blue-500 text-blue-500" />
-        </div>
       </div>
 
       <div className="flex w-full items-center justify-start gap-5 select-none">
-        <img
+        <Image
           width={40}
           height={40}
-          src={img || ""}
+          src={"/hero.png"}
           alt={name}
           className="size-10 rounded-full ring-1 ring-blue-500/20 ring-offset-2"
         />
