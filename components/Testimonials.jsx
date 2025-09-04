@@ -32,7 +32,7 @@ export function TestimonialCard({
         <Image
           width={40}
           height={40}
-          src={"/hero.png"}
+          src={"/images/hero.png"}
           alt={name}
           className="size-10 rounded-full ring-1 ring-blue-500/20 ring-offset-2"
         />
@@ -165,7 +165,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="relative container py-10 overflow-hidden">
+    <section className="relative container overflow-hidden">
       <div className="absolute top-20 -left-20 z-10 h-64 w-64 rounded-full bg-blue-500/5 blur-3xl" />
       <div className="absolute -right-20 bottom-20 z-10 h-64 w-64 rounded-full bg-blue-500/5 blur-3xl" />
 
@@ -178,6 +178,7 @@ export default function Testimonials() {
                 vertical
                 key={i}
                 className={cn({
+                  "[--duration:50s]": i === 0,
                   "[--duration:60s]": i === 1,
                   "[--duration:30s]": i === 2,
                   "[--duration:70s]": i === 3,

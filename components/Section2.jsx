@@ -75,7 +75,7 @@ const Section2 = () => {
         <div className="flex h-max gap-5">
           <div className="w-16 aspect-square bg-gray-200 rounded-full relative overflow-hidden">
             <Image
-              src={"/hero.png"}
+              src={"/images/hero.png"}
               alt="AI Product Hive"
               fill
               className="rounded cover"

@@ -2,8 +2,8 @@ import Testimonials from "./Testimonials";
 
 const Section5 = () => {
   return (
-    <div className="w-full text-white md:min-h-screen bg-black flex flex-col items-center gap-8 py-10 md:py-16">
-      <h2 className="text-3xl md:text-5xl font-extrabold text-center w-full capitalize max-w-2xl mx-auto">
+    <div className="w-full text-white md:min-h-screen bg-black flex flex-col items-center py-10 md:py-16">
+      <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-8 w-full capitalize max-w-2xl mx-auto">
         Meet some of the members
       </h2>
       <p className="text-sm md:text-lg text-center text-gray-200 w-full max-w-2xl mx-auto">

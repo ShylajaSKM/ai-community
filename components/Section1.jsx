@@ -25,7 +25,7 @@ const Section1 = () => {
         </div>
         <div className="w-full h-full absolute bg-black/60 z-10 flex flex-col justify-center items-center text-center"></div>
         <Image
-          src="/hero.png"
+          src="/images/hero.png"
           alt="Description of image"
           fill
           className="absolute h-full object-cover"

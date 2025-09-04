@@ -6,7 +6,7 @@ const Section4 = () => {
     <div className="w-full max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-3 place-items-center text-black bg-white gap-8 py-10 md:py-16">
       <div className="w-[80%] mx-auto md:w-full aspect-square relative">
         <Image
-          src={"/hero.png"}
+          src={"/images/hero.png"}
           alt="Hero Image"
           fill
           className="object-cover"
@@ -14,7 +14,7 @@ const Section4 = () => {
       </div>
       <div className="w-[80%] mx-auto md:w-full aspect-square relative">
         <Image
-          src={"/hero.png"}
+          src={"/images/hero.png"}
           alt="Hero Image"
           fill
           className="object-cover"
