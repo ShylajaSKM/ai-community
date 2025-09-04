@@ -19,7 +19,7 @@ const Footer = () => {
           <h2 className="text-2xl font-semibold mb-4">
             Start your journey with us
           </h2>
-          <button className="bg-gradient-to-tr w-full text-center from-orange-300 to-orange-400 text-black px-5 py-3 rounded text-sm font-semibold uppercase">
+          <button className="bg-gradient-to-tr md:w-full text-center from-orange-300 to-orange-400 text-black px-5 py-3 rounded text-sm font-semibold uppercase">
             Join Us on Slack
           </button>
         </div>
