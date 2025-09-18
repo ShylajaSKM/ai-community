@@ -1,4 +1,5 @@
 import {
+  AlignCenter,
   BrainCircuit,
   Handshake,
   Network,
@@ -11,42 +12,48 @@ const Section2 = () => {
   const items = [
     {
       icon: <Network className="w-8 h-8" />,
-      title: "Networking",
-      text: "Find other like-minded individuals working on similar projects!",
+      title: "Connections That Matter",
+      text: "Meet like-minded people who share your passion for technology, business, and innovation.",
     },
     {
       icon: <PhoneCall className="w-8 h-8" />,
-      title: "Community Calls",
-      text: "Participate in regular community calls and learn from each other.",
+      title: " Weekly Meetups",
+      text: " Join our Saturday sessions filled with discussions, activities, and knowledge sharing.",
     },
     {
       icon: <UserStar className="w-8 h-8" />,
-      title: "Get Feedback",
-      text: "Share your current project and get feedback from the community!",
+      title: " Ideas & Feedback",
+      text: " Present your thoughts or projects and get real, constructive feedback from the community.",
     },
     {
-      icon: <Handshake className="w-8 h-8" />,
-      title: "Find collaborators",
-      text: "Need a partner-in-crime for your next project? You’ve come to the best place to find one.",
+      icon: <Handshake className="w-8h-8" />,
+      
+      title: "Collaboration Opportunities",
+      text: " Looking for a partner, mentor, or team for your next big idea? You’ll find them here.",
     },
   ];
   return (
     <div className="w-full text-black min-h-screen bg-white flex flex-col items-center gap-8 py-16 px-4">
       <h2 className="text-3xl md:text-5xl font-extrabold text-center w-full capitalize max-w-2xl mx-auto">
-        The community you knew you always needed
+        The Community You’ve Been Waiting For
       </h2>
-      <p className="text-sm md:text-md text-center text-gray-600 w-full max-w-2xl mx-auto">
-        It's hard to find an AI-based community where everyone is willing to
-        learn, grow, and help each other. Now, you'll be able to do exactly that
-        with more than 500 others just like you.
+      <p className="text-base md:text-md text-center text-gray-700 w-full max-w-4xl mx-auto">
+        At PibiTech, we believe growth happens when people come together. Every Saturday, our Community Meet brings curious minds, innovators, and builders to one place — to share ideas, learn from each other, and spark collaborations that last.
       </p>
-      <button className="bg-gradient-to-tr flex gap-2 items-center from-orange-300 to-orange-400 text-black px-5 py-3 rounded text-sm font-semibold uppercase">
+      <button className="bg-gradient-to-tr from-orange-300 to-orange-400 
+                   hover:from-orange-400 hover:to-orange-500 
+                   flex gap-2 items-center 
+                   text-black hover:text-black
+                   px-5 py-3 rounded text-sm font-semibold uppercase 
+                   transition-all duration-600 hover:scale-109 hover:shadow-lg 
+                   cursor-pointer">
         <BrainCircuit />
-        Join Us on Slack
+        Join Us This Saturday
       </button>
-      <p className="text-md font-bold text-center text-gray-600">
-        (It's 100% Free!)
+      <p className="text-md font-bold text-center  text-gray-900">
+        ( It's 100% Free! )
       </p>
+      <h3 className="text-4xl font-bold text-center">What You’ll Find Here</h3>
       <div className="w-full max-w-6xl px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">
         {items.map((item, index) => (
           <div
@@ -56,7 +63,7 @@ const Section2 = () => {
             }`}
           >
             {item.icon}
-            <h3 className="text-lg font-semibold mt-4">{item.title}</h3>
+            <h3 className="text-lg font-semibold text-center mt-4">{item.title}</h3>
             <p className="text-gray-600 font-normal text-center mt-2">
               {item.text}
             </p>
@@ -65,17 +72,16 @@ const Section2 = () => {
       </div>
       <div className="pt-16 pb-6 flex flex-col gap-5 px-4 justify-center items-center">
         <h2 className="text-3xl md:text-5xl font-extrabold text-center w-full capitalize max-w-2xl mx-auto">
-          AI Product Hive is my favorite AI community
+         Community Meet Is My Go-To Learning Hub
+
         </h2>
-        <p className="text-sm md:text-md text-center text-gray-600 w-full max-w-2xl mx-auto">
-          It’s on Slack, there are interesting discussions about AI tools, there
-          is no spam or meaningless noise, plus they sometimes invite guests to
-          chat about AI news.
+        <p className="text-base md:text-md text-center text-gray-600 w-full max-w-2xl mx-auto">
+          Every Saturday feels like a fresh spark of ideas. The sessions are practical, the people are collaborative, and the conversations always lead to new learnings. No fluff, just real discussions and opportunities to grow together.
         </p>
         <div className="flex h-max gap-5">
           <div className="w-16 aspect-square bg-gray-200 rounded-full relative overflow-hidden">
             <Image
-              src={"/images/hero.png"}
+              src={"/images/man.jpg"}
               alt="AI Product Hive"
               fill
               className="rounded cover"

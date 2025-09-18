@@ -3,19 +3,19 @@ import { BrainCircuit } from "lucide-react";
 const Section10 = () => {
   const steps = [
     {
-      title: "Join the Community",
+      title: "Join the Meet",
       description:
-        "Simply click on any of the buttons on this page and get FREE access!",
+        " Connect with people who share your passion for learning, growth, and innovation.",
     },
     {
       title: "Introduce yourself!",
       description:
-        "Tell us about who you are and what you do. Then enjoy our welcome!",
+        "Tell us who you are and what you do. Our community is friendly, open, and excited to welcome you.",
     },
     {
       title: "Share your ideas!",
       description:
-        "Tell us what you're working on and join community calls to get ideas!",
+        " Bring your ideas, join discussions, and explore opportunities for collaboration.",
     },
   ];
   return (
@@ -38,10 +38,18 @@ const Section10 = () => {
           </div>
         ))}
       </div>
-      <button className="bg-gradient-to-tr mt-20 flex gap-2 items-center from-orange-300 to-orange-400 text-black px-5 py-3 rounded text-sm font-semibold uppercase">
+      <p className="pt-10">
+      <button className="bg-gradient-to-tr from-orange-300 to-orange-400 
+                   hover:from-orange-400 hover:to-orange-500 
+                   flex gap-2.5 items-center 
+                   text-black hover:text-black
+                   px-5 py-3 rounded text-sm font-semibold uppercase 
+                   transition-all duration-600 hover:scale-109 hover:shadow-lg 
+                   cursor-pointer">
         <BrainCircuit />
-        Join Us on Slack
+        Join Us on Saturday
       </button>
+      </p>
     </div>
   );
 };

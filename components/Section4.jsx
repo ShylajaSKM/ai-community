@@ -6,7 +6,7 @@ const Section4 = () => {
     <div className="w-full max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-3 place-items-center text-black bg-white gap-8 py-10 md:py-16">
       <div className="w-[80%] mx-auto md:w-full aspect-square relative">
         <Image
-          src={"/images/hero.png"}
+          src={"/images/img12.jpg"}
           alt="Hero Image"
           fill
           className="object-cover"
@@ -14,7 +14,7 @@ const Section4 = () => {
       </div>
       <div className="w-[80%] mx-auto md:w-full aspect-square relative">
         <Image
-          src={"/images/hero.png"}
+          src={"/images/img13.jpg"}
           alt="Hero Image"
           fill
           className="object-cover"
@@ -23,14 +23,19 @@ const Section4 = () => {
       <div className="flex w-full px-4 flex-col items-center gap-5">
         <h3 className="text-3xl font-bold">Who are we?</h3>
         <p className="text-center text-lg md:text-xl">
-          We’re an AI-focused community for product managers, designers, and
-          development teams. inside!
+          We're a growing community of builders, designers, product folks, and developers who care deeply about the future of tech — especially around AI, product, and creativity.
         </p>
         <p className="text-center text-lg md:text-xl">
-          We love sharing ideas and helping each other grow. If that’s something
-          you like to do, we can’t wait to welcome you
+          We believe in open collaboration, idea-sharing, and lifting each other up.
+ If that sounds like your kind of energy — we’d love to have you with us.
         </p>
-        <button className="bg-gradient-to-tr flex gap-2 items-center from-orange-300 to-orange-400 text-black px-5 py-3 rounded text-sm font-semibold uppercase">
+        <button className="bg-gradient-to-tr from-orange-300 to-orange-400 
+                   hover:from-orange-400 hover:to-orange-500 
+                   flex gap-2 items-center 
+                   text-black hover:text-black
+                   px-5 py-3 rounded text-sm font-semibold uppercase 
+                   transition-all duration-600 hover:scale-109 hover:shadow-lg 
+                   cursor-pointer">
           <BrainCircuit />
           Join Us on Slack
         </button>
