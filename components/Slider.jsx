@@ -22,14 +22,6 @@ export default function Slider() {
       }}
       modules={[Autoplay, Pagination, Navigation]}
       className="mySwiper"
-      breakpoints={{
-        0: {
-          slidesPerView: 1,
-        },
-        768: {
-          slidesPerView: 2,
-        },
-      }}
     >
       <SwiperSlide>
         <div className="w-full aspect-square bg-black text-white flex justify-center items-center">
