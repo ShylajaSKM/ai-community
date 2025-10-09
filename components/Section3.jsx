@@ -1,7 +1,6 @@
 "use client";
 
 import Slider from "./Slider";
-import Image from "next/image";
 
 const Section3 = () => {
   return (

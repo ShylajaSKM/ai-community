@@ -23,19 +23,16 @@ const Section4 = () => {
       <div className="flex w-full px-4 flex-col items-center gap-5">
         <h3 className="text-3xl font-bold">Who are we?</h3>
         <p className="text-center text-lg md:text-xl">
-          We're a growing community of builders, designers, product folks, and developers who care deeply about the future of tech — especially around AI, product, and creativity.
+          We're a growing community of builders, designers, product folks, and
+          developers who care deeply about the future of tech — especially
+          around AI, product, and creativity.
         </p>
         <p className="text-center text-lg md:text-xl">
-          We believe in open collaboration, idea-sharing, and lifting each other up.
- If that sounds like your kind of energy — we’d love to have you with us.
+          We believe in open collaboration, idea-sharing, and lifting each other
+          up. If that sounds like your kind of energy — we’d love to have you
+          with us.
         </p>
-        <button className="bg-gradient-to-tr from-orange-300 to-orange-400 
-                   hover:from-orange-400 hover:to-orange-500 
-                   flex gap-2 items-center 
-                   text-black hover:text-black
-                   px-5 py-3 rounded text-sm font-semibold uppercase 
-                   transition-all duration-600 hover:scale-109 hover:shadow-lg 
-                   cursor-pointer">
+        <button className="bg-gradient-to-tr from-orange-300 to-orange-400 hover:from-orange-400 hover:to-orange-500 flex gap-2 items-center text-black hover:text-black px-5 py-3 rounded text-sm font-semibold uppercase transition-all duration-600 hover:scale-109 hover:shadow-lg cursor-pointer">
           <BrainCircuit />
           Join Us on Slack
         </button>

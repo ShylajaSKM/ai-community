@@ -27,7 +27,7 @@ const Section2 = () => {
     },
     {
       icon: <Handshake className="w-8h-8" />,
-      
+
       title: "Collaboration Opportunities",
       text: " Looking for a partner, mentor, or team for your next big idea? You’ll find them here.",
     },
@@ -38,23 +38,22 @@ const Section2 = () => {
         The Community You’ve Been Waiting For
       </h2>
       <p className="text-base md:text-md text-center text-gray-700 w-full max-w-4xl mx-auto">
-        At PibiTech, we believe growth happens when people come together. Every Saturday, our Community Meet brings curious minds, innovators, and builders to one place — to share ideas, learn from each other, and spark collaborations that last.
+        At PibiTech, we believe growth happens when people come together. Every
+        Saturday, our Community Meet brings curious minds, innovators, and
+        builders to one place — to share ideas, learn from each other, and spark
+        collaborations that last.
       </p>
-      <button className="bg-gradient-to-tr from-orange-300 to-orange-400 
-                   hover:from-orange-400 hover:to-orange-500 
-                   flex gap-2 items-center 
-                   text-black hover:text-black
-                   px-5 py-3 rounded text-sm font-semibold uppercase 
-                   transition-all duration-600 hover:scale-109 hover:shadow-lg 
-                   cursor-pointer">
+      <button className="bg-gradient-to-tr from-orange-300 to-orange-400 hover:from-orange-400 hover:to-orange-500 flex gap-2 items-center text-black hover:text-black px-5 py-3 rounded text-sm font-semibold uppercase transition-all duration-600 hover:scale-109 hover:shadow-lg cursor-pointer">
         <BrainCircuit />
         Join Us This Saturday
       </button>
       <p className="text-md font-bold text-center  text-gray-900">
         ( It's 100% Free! )
       </p>
-      <h3 className="text-4xl font-bold text-center">What You’ll Find Here</h3>
-      <div className="w-full max-w-6xl px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">
+      <h3 className="text-4xl font-bold text-center mt-10">
+        What You’ll Find Here
+      </h3>
+      <div className="w-full max-w-6xl px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {items.map((item, index) => (
           <div
             key={index}
@@ -63,7 +62,9 @@ const Section2 = () => {
             }`}
           >
             {item.icon}
-            <h3 className="text-lg font-semibold text-center mt-4">{item.title}</h3>
+            <h3 className="text-lg font-semibold text-center mt-4">
+              {item.title}
+            </h3>
             <p className="text-gray-600 font-normal text-center mt-2">
               {item.text}
             </p>
@@ -72,11 +73,13 @@ const Section2 = () => {
       </div>
       <div className="pt-16 pb-6 flex flex-col gap-5 px-4 justify-center items-center">
         <h2 className="text-3xl md:text-5xl font-extrabold text-center w-full capitalize max-w-2xl mx-auto">
-         Community Meet Is My Go-To Learning Hub
-
+          Community Meet Is My Go-To Learning Hub
         </h2>
         <p className="text-base md:text-md text-center text-gray-600 w-full max-w-2xl mx-auto">
-          Every Saturday feels like a fresh spark of ideas. The sessions are practical, the people are collaborative, and the conversations always lead to new learnings. No fluff, just real discussions and opportunities to grow together.
+          Every Saturday feels like a fresh spark of ideas. The sessions are
+          practical, the people are collaborative, and the conversations always
+          lead to new learnings. No fluff, just real discussions and
+          opportunities to grow together.
         </p>
         <div className="flex h-max gap-5">
           <div className="w-16 aspect-square bg-gray-200 rounded-full relative overflow-hidden">
