@@ -32,9 +32,9 @@ export function TestimonialCard({
         <Image
           width={40}
           height={40}
-          src={"/images/hero.png"}
+          src={"/images/team2.jpg"}
           alt={name}
-          className="size-10 rounded-full ring-1 ring-blue-500/20 ring-offset-2"
+          className="size-10 rounded-full object-cover ring-1 ring-blue-500/20 ring-offset-2"
         />
 
         <div>
@@ -47,9 +47,9 @@ export function TestimonialCard({
 }
 const testimonials = [
   {
-    name: "Patrick Olsen",
+    name: "Jaya Lakshmi",
     role: "Strategic leader",
-    img: "https://randomuser.me/api/portraits/men/22.jpg",
+    img: "/images/team2.HEIC",
     description: (
       <p>
         “Aspiring founder turned developer and now Gen AI enthusiast. I am

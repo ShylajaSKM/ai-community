@@ -22,7 +22,8 @@ const Section7 = () => {
     },
     {
       title: "AI ML Jobs",
-      description: "A dedicated job board for AI, Data Science, and Machine Learning opportunities.",
+      description:
+        "A dedicated job board for AI, Data Science, and Machine Learning opportunities.",
       founder: "Pri",
     },
     {
@@ -33,7 +34,8 @@ const Section7 = () => {
     },
     {
       title: "Airstrip",
-      description: "An open-source enterprise AI management platform for scalable adoption.",
+      description:
+        "An open-source enterprise AI management platform for scalable adoption.",
       founder: "Hendy Chua",
     },
   ];
@@ -44,7 +46,8 @@ const Section7 = () => {
         Notable Community Projects
       </h2>
       <p className="text-sm md:text-lg text-center px-4 text-gray-200 w-full max-w-2xl mx-auto">
-        Explore some of the exciting initiatives our members are building and contributing to:
+        Explore some of the exciting initiatives our members are building and
+        contributing to:
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-7xl mt-8 mx-auto">
         {products.map((product, index) => (

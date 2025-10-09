@@ -50,26 +50,26 @@ const Section2 = () => {
       <p className="text-md font-bold text-center  text-gray-900">
         ( It's 100% Free! )
       </p>
-      <h3 className="text-4xl font-bold text-center mt-10">
-        What You’ll Find Here
-      </h3>
-      <div className="w-full max-w-6xl px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        {items.map((item, index) => (
-          <div
-            key={index}
-            className={`bg-white p-6 flex flex-col items-center ${
-              index != 0 && "max-sm:border-t-2 md:border-l-2 border-gray-200"
-            }`}
-          >
-            {item.icon}
-            <h3 className="text-lg font-semibold text-center mt-4">
-              {item.title}
-            </h3>
-            <p className="text-gray-600 font-normal text-center mt-2">
-              {item.text}
-            </p>
-          </div>
-        ))}
+      <div>
+        <h3 className="text-4xl font-bold text-center mt-10">
+          What You’ll Find Here
+        </h3>
+        <div className="w-full max-w-6xl px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10 gap-8">
+          {items.map((item, index) => (
+            <div
+              key={index}
+              className="bg-white p-6 flex flex-col items-center border-2 rounded-xl border-black/40 shadow-md"
+            >
+              {item.icon}
+              <h3 className="text-lg font-semibold text-center mt-4">
+                {item.title}
+              </h3>
+              <p className="text-gray-600 font-normal text-center mt-2">
+                {item.text}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
       <div className="pt-16 pb-6 flex flex-col gap-5 px-4 justify-center items-center">
         <h2 className="text-3xl md:text-5xl font-extrabold text-center w-full capitalize max-w-2xl mx-auto">
@@ -84,15 +84,15 @@ const Section2 = () => {
         <div className="flex h-max gap-5">
           <div className="w-16 aspect-square bg-gray-200 rounded-full relative overflow-hidden">
             <Image
-              src={"/images/man.jpg"}
+              src={"/images/team1.jpg"}
               alt="AI Product Hive"
               fill
               className="rounded cover"
             />
           </div>
           <div className="flex flex-col justify-around">
-            <h4>Tereza Tizkova</h4>
-            <p>Head of Growth @ E2B.dev</p>
+            <h4>Siranjeevi Ramadoss</h4>
+            <p>Head of Pibi Tech</p>
           </div>
         </div>
       </div>
