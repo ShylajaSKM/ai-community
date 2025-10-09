@@ -29,7 +29,7 @@ const Section2 = () => {
       icon: <Handshake className="w-8h-8" />,
 
       title: "Collaboration Opportunities",
-      text: " Looking for a partner, mentor, or team for your next big idea? You’ll find them here.",
+      text: " Looking for a mentor, or team for your next big idea? You’ll find them here.",
     },
   ];
   return (
