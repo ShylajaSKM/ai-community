@@ -2,7 +2,6 @@
 
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { Star } from "lucide-react";
 import { Marquee } from "@/components/ui/marquee";
 import Image from "next/image";
 
