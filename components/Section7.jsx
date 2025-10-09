@@ -5,35 +5,35 @@ const Section7 = () => {
     {
       title: "Sinfonia",
       description:
-        "Sinfonia empowers product managers by streamlining the ideation, evaluation, and definition of product requirements.",
+        "Streamlining product management by simplifying ideation, evaluation, and requirement definition.",
       founder: "Matt Genovese",
     },
     {
       title: "MindyGem",
       description:
-        "Create full-cycle development requirements in minutes with the power of AI",
+        "AI-powered tool to generate full-cycle development requirements in minutes.",
       founder: "Valentyna Zakharova",
     },
     {
       title: "Community Echo",
       description:
-        "Create unique community-focused content to increase engagement",
+        "Creating community-focused content designed to boost engagement and collaboration.",
       founder: "Maksym Khamrovskyi",
     },
     {
       title: "AI ML Jobs",
-      description: "Job board for AI, Data Science, and Machine Learning Jobs",
+      description: "A dedicated job board for AI, Data Science, and Machine Learning opportunities.",
       founder: "Pri",
     },
     {
       title: "Cloud Careers Hub",
       description:
-        "Job board at the forefront of Cloud Computing and Artificial Intelligence.",
+        "Job platform at the forefront of cloud computing and AI talent.",
       founder: "Laura Dobos",
     },
     {
       title: "Airstrip",
-      description: "Open-source Enterprise AI Management Platform",
+      description: "An open-source enterprise AI management platform for scalable adoption.",
       founder: "Hendy Chua",
     },
   ];
@@ -44,7 +44,7 @@ const Section7 = () => {
         Notable Community Projects
       </h2>
       <p className="text-sm md:text-lg text-center px-4 text-gray-200 w-full max-w-2xl mx-auto">
-        Here are some of the projects our community members are working on.
+        Explore some of the exciting initiatives our members are building and contributing to:
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-7xl mt-8 mx-auto">
         {products.map((product, index) => (
