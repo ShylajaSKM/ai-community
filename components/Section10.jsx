@@ -39,16 +39,18 @@ const Section10 = () => {
         ))}
       </div>
       <p className="pt-10">
-      <button className="bg-gradient-to-tr from-orange-300 to-orange-400 
+        <button
+          className="bg-gradient-to-tr from-orange-300 to-orange-400 
                    hover:from-orange-400 hover:to-orange-500 
                    flex gap-2.5 items-center 
                    text-black hover:text-black
                    px-5 py-3 rounded text-sm font-semibold uppercase 
                    transition-all duration-600 hover:scale-109 hover:shadow-lg 
-                   cursor-pointer">
-        <BrainCircuit />
-        Join Us on Saturday
-      </button>
+                   cursor-pointer"
+        >
+          <BrainCircuit />
+          Join Us on Saturday
+        </button>
       </p>
     </div>
   );

@@ -23,14 +23,18 @@ const Section6 = () => {
           </div>
         </div>
         <p className="text-xl md:text-2xl px-5 font-semibold text-center text-gray-200 w-full max-w-7xl mx-auto">
-          We help teams accelerate product delivery through Agile UX/UI design, clear user stories, and test case documentation — all designed to reduce risk and cut internal costs.
-Whether you're building an MVP or scaling fast, our team can support you every step of the way.
-
+          We help teams accelerate product delivery through{" "}
+          <span className="text-[#FFAD06]">Agile UX/UI design</span>, clear{" "}
+          <span className="text-[#FFAD06]">user stories</span>, and{" "}
+          <span className="text-[#FFAD06]">test case documentation</span> — all
+          designed to reduce risk and cut internal costs. Whether you're
+          building an MVP or scaling fast, our team can support you every step
+          of the way.
         </p>
         <Link href="/" className="text-sm md:text-xl">
           <span className="text-[#FF6B1E]">»</span>{" "}
           <span className="text-[#FFAD06] underline leading-[1.2]">
-             Let’s talk — no strings attached
+            Let’s talk — no strings attached
           </span>{" "}
           <span className="text-[#FF6B1E]">«</span>
         </Link>
