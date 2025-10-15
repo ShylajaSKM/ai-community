@@ -14,17 +14,21 @@ export default function Home() {
   return (
     <div className="w-screen bg-white min-h-screen">
       <Section1 />
+    
+
       <Section2 />
       <div className="bg-black ">
+       
         <Section3 />
       </div>
       <Section4 />
       <Section5 />
       <Section6 />
+      {/* <Section8 /> */}
       <Section7 />
-      <Section8 />
-      <Section10 />
-      <Section11 />
+      
+    
+      {/* <Section11 /> */}
     </div>
   );
 }

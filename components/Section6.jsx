@@ -38,6 +38,10 @@ const Section6 = () => {
           </span>{" "}
           <span className="text-[#FF6B1E]">«</span>
         </Link>
+        <h2 className="text-lg md:text-3xl px-4 font-extrabold leading-[1.8] text-center mt-10 mb-8 w-full capitalize max-w-5xl mx-auto">
+          Explore cutting edge AI tools or share your own with our{" "}
+          <span className="text-[#FF6B1E]">Community Network!</span>
+        </h2>
       </div>
     </div>
   );

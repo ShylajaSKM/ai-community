@@ -41,21 +41,21 @@ const Section7 = () => {
   ];
 
   return (
-    <div className="w-screen h-max relative bg-black text-white flex flex-col items-center justify-center py-10 md:py-16">
+    <div className="w-screen h-max relative bg-white text-black flex flex-col items-center justify-center py-10 md:py-16">
       <h2 className="text-2xl md:text-4xl font-extrabold text-center mb-8 w-full capitalize max-w-3xl mx-auto">
         Notable Community Projects
       </h2>
-      <p className="text-sm md:text-lg text-center px-4 text-gray-200 w-full max-w-2xl mx-auto">
+      <p className="text-sm md:text-lg text-center px-4 text-black w-full max-w-2xl mx-auto">
         Explore some of the exciting initiatives our members are building and
         contributing to:
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-7xl mt-8 mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-7xl mt-8 mx-auto">
         {products.map((product, index) => (
           <div
             key={index}
-            className="flex flex-col items-center md:items-start gap-3"
+            className="flex flex-col p-4 rounded-xl shadow-xl shadow-black/20 items-center md:items-start mb-4"
           >
-            <div className="w-[30%] md:w-[60%] aspect-square relative rounded-lg">
+            <div className="w-[30%] md:w-[50%] aspect-square relative rounded-lg">
               <Image
                 src={"/images/pibi.png"}
                 fill
@@ -64,7 +64,7 @@ const Section7 = () => {
               />
             </div>
             <h3 className="text-lg font-semibold">{product.title}</h3>
-            <p className="text-gray-400 px-4 text-center md:text-start">
+            <p className="text-black px-4 md:px-0 text-center md:text-start">
               {product.description}
             </p>
             <p className="text-[#FFD500] text-md font-semibold">
