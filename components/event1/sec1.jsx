@@ -34,16 +34,28 @@ const Event1sec1 = () => {
         <p className="text-lg md:text-2xl max-w-[90%]">
           <strong>Madurai AI Developer Community</strong>{" "}
         </p>
-        <p className="text-lg md:text-xl max-w-[90%]">
-          <strong>Theme :</strong> Code Local Think Global
+        <p className="text-left test-left text-lg md:text-xl max-w-[90%]">
+          <strong className="text-yellow-400">Theme :</strong> Code Local Think
+          Global
         </p>
-        <p className="text-lg md:text-xl max-w-[90%]">
-          <strong>Time :</strong> 4 PM to 6 PM
+        <p className="text-left text-lg md:text-xl max-w-[90%]">
+          <strong className="text-left text-yellow-400">Time :</strong> 4 PM to
+          6 PM
         </p>
-        <p className="text-lg md:text-xl max-w-[90%]">
-          <strong>Venue :</strong> PiBi Technologies, Zudio Backside, Opp.
-          Income Tax Office, BB Kulam, Madurai
+
+        <p className=" text-left text-lg md:text-xl max-w-[90%]">
+          <strong className="text-left text-yellow-400">Entry :</strong>{" "}
+          Free(Registration must)
         </p>
+        <p className=" text-lg md:text-xl max-w-[90%]">
+          <strong className="text-left text-yellow-400">Venue :</strong> PiBi
+          Technologies, Zudio Backside, Opp. Income Tax Office, BB Kulam,
+          Madurai
+        </p>
+
+        <button className="bg-gradient-to-tr hidden md:block from-orange-300 to-orange-400 text-black px-5 py-4 rounded text-sm font-semibold uppercase">
+          Event Overview
+        </button>
       </div>
     </div>
   );
