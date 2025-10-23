@@ -25,7 +25,7 @@ export default function Home() {
       {/* <Section8 /> */}
       <Section7 />
 
-      <Section11 />
+      {/* <Section11 /> */}
     </div>
   );
 }
