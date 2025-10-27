@@ -14,15 +14,15 @@ const NavBar = () => {
       path: "/",
     },
     {
-      name: "Events",
+      name: "Community Events",
       path: "/events",
       subItems: [
-        { name: "Event 1", path: "/events/event1" },
-        { name: "Event 2", path: "/events/event2" },
+        { name: "Past Events", path: "/events/past-events" },
+        // { name: "Upcoming Events", path: "/events/upcoming-events" },
       ],
     },
     {
-      name: "Blog & Community Updates",
+      name: "Blog",
       path: "/blog",
     },
   ];

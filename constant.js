@@ -1,5 +1,5 @@
 export const eventsData = [
-  {
+  {week:1,
     title: "AI Product Thinking",
     organizer: "Madurai AI Developers Community",
     theme: "Code Local, Think Global",
@@ -8,14 +8,11 @@ export const eventsData = [
     venue:
       "PiBi Technologies, Zudio Backside, Opp. Income Tax Office, BB Kulam, Madurai",
     entry: "Free (Registration Required)",
-    overview:
-      "A 2-hour interactive meetup focused on AI Product Thinking — turning ideas into AI-powered products.",
+     overview:
+      " From idea to impact—build AI that matters.",
     objectives: [
-      "What transforms a simple idea into a scalable AI product",
-      "How to approach coding like a real-world AI builder",
-      "Starting small: launching your own AI project",
-      "Thinking beyond tools—embracing AI as a mindset",
-      "Building confidence to discuss AI in interviews and hackathons",
+"Our inaugural session kicked off with a deep dive into AI Product Thinking—a foundational topic for developers and innovators aiming to build meaningful AI solutions. This 2-hour interactive meetup brought together passionate minds from Madurai to explore what it truly means to turn ideas into AI-powered products."
+
     ],
     communityBenefits: [
       "Weekly learning sessions",
@@ -23,11 +20,53 @@ export const eventsData = [
       "Career guidance in AI",
       "Networking meet-ups with local tech enthusiasts",
     ],
-    callToAction:
-      "Join the Madurai AI Developers Community to learn, build and network — think global, code local.",
-  },
-  {},
-  {
+    sessionOverview:[
+      "What transforms a simple idea into a scalable AI product",
+"How to approach coding like a real-world AI builder",
+"Starting small: launching your own AI project",
+"Thinking beyond tools—embracing AI as a mindset",
+"Building confidence to discuss AI in interviews and hackathons"
+
+    ],
+    fromCommunity:[
+      "This event marked the beginning of a movement—where local talent collaborates, learns, and grows together. Whether you're a student, developer, or AI enthusiast, our community is your launchpad to think global while coding local.",
+]},
+  {week:2,
+     title: "UI/UX for AI Applications",
+    organizer: "Madurai AI Developers Community",
+    theme: "Code Local, Think Global",
+    date: "Saturday, July 12, 2025",
+    time: "4:00 PM – 6:00 PM",
+    venue:
+      "PiBi Technologies, Zudio Backside, Opp. Income Tax Office, BB Kulam, Madurai",
+    entry: "Free (Registration Required)",
+    overview:
+"Design trust, not just interfaces.",
+
+    objectives: [
+"In our second session, we explored the critical role of UI/UX design in AI applications. This hands-on workshop helped participants understand how thoughtful design can make AI tools more intuitive, trustworthy, and user-friendly. Whether you're a designer venturing into AI or a developer looking to improve user experience, this session offered practical insights and tools to elevate your work."
+
+    ],
+    communityBenefits: [
+      "Weekly expert-led sessions",
+      "Real world projects and code reviews",
+      "Career guidance in AI and design",
+      "Networking with local tech and design enthusiasts",
+    ],
+    sessionOverview:[
+      "Core principles of UX for AI: feedback loops, explainability, and trust",
+"Designing wireframes and flows using Figma and Adobe XD",
+"Challenges unique to AI interfaces: uncertainty, errors, and user expectations",
+"Building a basic AI product mockup tailored for real-world use",
+"Access to starter templates and plugins for rapid prototyping"
+
+    ],
+    fromCommunity:[
+      "Designing for AI isn’t just about aesthetics—it’s about clarity, usability, and trust. This session empowered attendees to think critically about how users interact with intelligent systems and how to design interfaces that support those interactions."
+    ]},
+
+  
+  { week: 3,
     title: "BUILDING AI MVPs",
     organizer: "Madurai AI Developers Community",
     theme: "Code Local, Think Global",
@@ -37,7 +76,7 @@ export const eventsData = [
       "PiBi Technologies, Zudio Backside, Opp. Income Tax Office, BB Kulam, Madurai",
     entry: "Free (Registration Required)",
     overview:
-      "This session focused on transforming raw AI ideas into tangible solutions through rapid prototyping and lean development strategies.",
+      "  Start small, solve big—your AI MVP journey begins here.",
     objectives: [
       "Learn to shape AI ideas into real solutions using design thinking",
       "Use tools like GPT and RAG to accelerate idea development",
@@ -51,9 +90,16 @@ export const eventsData = [
       "Personalized AI career guidance",
       "Networking meet-ups with local developers and innovators",
     ],
-    callToAction:
-      "This event showcased the power of collaborative learning and grassroots innovation to build AI solutions.",
-  },
+    sessionOverview:[
+      "Learn to shape AI ideas into real solutions using design thinking",
+"Use tools like GPT and RAG to accelerate idea development",
+"Build and improve MVPs with simple, low-cost methods",
+"Understand how real AI products solve market problems",
+"Test MVPs with user input and refine them using feedback"
+    ],
+    fromCommunity:[
+      "This event showcased the power of collaborative learning and grassroots innovation to build AI solutions."
+    ]},
   {
     week: 4,
     title: "Scale Your AI Product – With PLC & GTM Strategies",
@@ -65,7 +111,7 @@ export const eventsData = [
       "PiBi Technologies, Zudio Backside, Opp. Income Tax Office, BB Kulam, Madurai",
     entry: "Free (Registration Required)",
     overview:
-      "This session focused on the strategic side of AI product development—how to scale effectively using Product-Led Growth (PLC) and Go-To-Market (GTM) strategies.",
+"Let your product speak, scale, and sell itself.",
     objectives: [
       "Learn about building products that sell and convert on their own",
       "Apply smart GTM strategies for faster reach and adoption",
@@ -73,15 +119,25 @@ export const eventsData = [
       "Track the right metrics to drive sustainable growth",
       "Discover practical ideas to increase signups, usage, and revenue",
     ],
+     sessionOverview:[
+    " Learn to shape AI ideas into real solutions using design thinking",
+"Use tools like GPT and RAG to accelerate idea development",
+"Build and improve MVPs with simple, low-cost methods",
+"Understand how real AI products solve market problems",
+"Test MVPs with user input and refine them using feedback"
+
+      
+    ],
     communityBenefits: [
       "Weekly sessions with actionable insights",
       "Real-world projects and code reviews",
       "Personalized AI career guidance",
       "Networking meet-ups with local innovators",
     ],
-    callToAction:
-      "This session emphasized community-driven growth and strategies to scale AI products from MVP to market success.",
-  },
+    fromCommunity:[
+    "This session emphasized the power of community-driven growth. By sharing strategies, tools, and real-world examples, we helped members understand how to take their AI products from MVP to market success. The energy and collaboration proved that scaling is not just a goal—it’s a shared journey."
+    ]},
+
   {
     week: 5,
     title: "Execute What You Have Learnt",
@@ -93,7 +149,7 @@ export const eventsData = [
       "PiBi Technologies, Zudio Backside, Opp. Income Tax Office, BB Kulam, Madurai",
     entry: "Free (Registration Required)",
     overview:
-      "This session focused on practical implementation of the learnings from previous weeks through building, testing, and iteration.",
+"Turn learning into action—build, test, repeat.",
     objectives: [
       "Apply concepts from AI product thinking, design, and development",
       "Start building or refining your own AI project",
@@ -107,8 +163,19 @@ export const eventsData = [
       "Career guidance tailored to AI roles",
       "Networking with builders, designers, and strategists",
     ],
-    callToAction:
-      "This week promoted execution and accountability to turn knowledge into impact.",
+    sessionOverview:[
+     " Apply concepts from AI product thinking, design, and development"
+,"Start building or refining your own AI project",
+"Collaborate with peers to validate ideas and prototypes",
+"Receive feedback from mentors and community members",
+"Prepare to showcase your work in future meetups or hackathons"
+
+          
+ 
+    ],
+    fromCommunity:[
+      "This session embodied the spirit of growth through action. By encouraging members to execute and share their progress, we fostered a culture of accountability, creativity, and collaboration. It was a celebration of how far we’ve come—and a launchpad for what’s next."
+    ]
   },
   {
     week: 6,
@@ -121,7 +188,7 @@ export const eventsData = [
       "PiBi Technologies, Zudio Backside, Opp. Income Tax Office, BB Kulam, Madurai",
     entry: "Free (Registration Required)",
     overview:
-      "This session was a hands-on dive into full stack development powered by AI to build functional applications.",
+      "Code the future—AI-powered apps from front to back.",
     objectives: [
       "Gain the skill to connect front-end and back-end using AI",
       "Build real, working apps faster with AI guidance",
@@ -134,8 +201,17 @@ export const eventsData = [
       "Personalized AI career guidance",
       "Networking meet-ups with tech enthusiasts",
     ],
-    callToAction:
-      "This week showcased how AI accelerates full-stack development to turn ideas into working apps.",
+    sessionOverview:[
+    "Gain the skill to connect front-end and back-end using AI",
+"Build real, working apps faster with AI guidance",
+"Confidently store and manage app data",
+"Understand the AI tools needed to create and launch full-stack applications"
+  
+    ],
+    fromCommunity:[
+     "This session showcased the power of combining AI with full-stack development. By building together, sharing tools, and solving real challenges, our community proved that growth is not just about learning—it’s about creating. Week 6 was a milestone in turning knowledge into action."
+ 
+    ] 
   },
   {
     week: 7,
@@ -148,12 +224,9 @@ export const eventsData = [
       "PiBi Technologies, Zudio Backside, Opp. Income Tax Office, BB Kulam, Madurai",
     entry: "Free (Registration Required)",
     overview:
-      "This session explored the Generative AI ecosystem, including models, data layers, and orchestration protocols for product development.",
-    objectives: [
-      "Understand the core layers of the GenAI tech stack",
-      "Use RAG and Agentic RAG for context retrieval",
-      "Learn about MCP and A2A protocols",
-      "Map GenAI capabilities to real-world product workflows",
+      " Build smarter—map GenAI to real-world workflows.",
+    objectives: ["This session was a deep dive into the Generative AI ecosystem and its role in modern product development. Participants explored the foundational layers of GenAI technology, from models and data to orchestration and integration protocols. The session emphasized how to build smarter, context-aware AI products using cutting-edge tools and frameworks."  
+,
     ],
     communityBenefits: [
       "Weekly sessions with advanced topics",
@@ -161,8 +234,17 @@ export const eventsData = [
       "Personalized AI career guidance",
       "Networking meet-ups with product thinkers",
     ],
-    callToAction:
-      "The session empowered members to build context-aware AI products using advanced GenAI tools.",
+    sessionOverview:[    
+      "Understand the core layers of the GenAI tech stack (models, data, orchestration)",
+"Use RAG and Agentic RAG for context retrieval and task automation",
+"Learn about MCP and A2A protocols for protocol-based AI integration",
+"Map GenAI capabilities to real-world product workflows" 
+    ],
+    fromCommunity:[
+      "Week 7 reinforced our commitment to building with purpose. By exploring the GenAI ecosystem, we empowered members to go beyond experimentation and start crafting intelligent, scalable AI solutions. It was a session that bridged theory with real-world application—fueling growth through innovation."
+
+      
+    ] 
   },
   {
     week: 8,
@@ -175,7 +257,7 @@ export const eventsData = [
       "PiBi Technologies, Zudio Backside, Opp. Income Tax Office, BB Kulam, Madurai",
     entry: "Free (Registration Required)",
     overview:
-      "This session introduced Agentic RAG and its application in building autonomous AI systems powered by reasoning and knowledge retrieval.",
+      "Autonomous apps, powered by reasoning and retrieval.",
     objectives: [
       "Build autonomous RAG-powered AI applications",
       "Master reasoning, planning, and knowledge retrieval techniques",
@@ -187,8 +269,15 @@ export const eventsData = [
       "Personalized AI career guidance",
       "Networking meet-ups with innovators",
     ],
-    callToAction:
-      "Week 8 empowered members to push boundaries with autonomous AI architectures.",
+    sessionOverview:[ 
+      "Build autonomous RAG-powered AI applications",
+"Master reasoning, planning, and knowledge retrieval techniques",
+"Apply Agentic RAG in real-world business use cases"
+
+    ],
+    fromCommunity:[
+ "Week 8 was a leap into the future of AI development. By combining technical depth with practical application, our community empowered members to build smarter, more autonomous systems. It was a testament to how far we've come—and how much further we can go when we build together."
+    ] 
   },
   {
     week: 9,
@@ -201,7 +290,7 @@ export const eventsData = [
       "PiBi Technologies, Zudio Backside, Opp. Income Tax Office, BB Kulam, Madurai",
     entry: "Free (Registration Required)",
     overview:
-      "This session helped attendees understand and compare key AI development strategies: Fine-tuning, RAG, and Prompt Engineering.",
+      " Choose wisely—your AI strategy starts with clarity.",
     objectives: [
       "Understand the differences between Fine-tuning, RAG, and Prompt Engineering",
       "Learn when to use each approach",
@@ -215,8 +304,16 @@ export const eventsData = [
       "Personalized AI career guidance",
       "Networking with product thinkers",
     ],
-    callToAction:
-      "This session turned confusion into clarity by providing a decision-making framework.",
+    sessionOverview:[ 
+      "Understand the differences between Fine-tuning, RAG, and Prompt Engineering",
+      "Learn when to use each approach for specific problem types",
+      "Compare cost, accuracy, and scalability across methods",
+      "Explore practical examples and mini demos",
+      "Use a clear framework to choose the right strategy for your AI product"
+    ],  
+    fromCommunity:[
+ "Week 9 was all about making informed choices. By breaking down complex strategies into digestible insights, we empowered our community to build smarter and more efficient AI solutions. It was a session that turned confusion into clarity—and ideas into action.",
+    ]
   },
   {
     week: 10,
@@ -229,7 +326,7 @@ export const eventsData = [
       "F.Robin Technologies, First Floor, 2/10 Feet Rd, Surveyor Colony, Madurai – 625007",
     entry: "Free (Registration Required)",
     overview:
-      "A full-day workshop focused on building practical RAG-powered applications using real-world datasets and use cases.",
+      " Build with purpose—AI tools for public good..",
     objectives: [
       "Build autonomous RAG-powered AI apps",
       "Apply RAG to real-world public use cases",
@@ -242,8 +339,20 @@ export const eventsData = [
       "Personalized AI career guidance",
       "Networking with civic tech enthusiasts",
     ],
-    callToAction:
-      "This workshop demonstrated AI’s potential to solve real public service challenges.",
+    sessionOverview:[ 
+      "Build autonomous RAG-powered AI apps",
+      "Apply RAG to five real-world use cases:",
+      "Bus/Train Info Assistant",
+      "Motor Vehicles Act Info Bot", 
+      "Government Schemes Info Tool",
+      "Government Documents Assistant",
+      "TNPSC Previous-Year Question Bot",
+      "Learn how to structure data and workflows for RAG applications",
+      "Gain confidence in deploying AI tools for public-facing solutions"
+    ],  
+    fromCommunity:[
+"Week 10 was a celebration of applied learning. By building tools that serve real community needs, we proved that AI isn't just about innovation—it's about impact. This workshop showcased how local talent can create meaningful solutions using cutting-edge technology."
+    ]
   },
   {
     week: 11,
@@ -256,7 +365,7 @@ export const eventsData = [
       "PiBi Technologies, Zudio Building Back Entrance, Opp. Income Tax Office, BB Kulam, Madurai",
     entry: "Free (Registration Required)",
     overview:
-      "This session introduced regression, SVMs, and decision trees, helping participants understand core ML principles.",
+      " Decode decisions—learn the logic behind the models",
     objectives: [
       "Understand regression and prediction",
       "Learn why SVMs are powerful for classification",
@@ -270,8 +379,16 @@ export const eventsData = [
       "Career guidance in AI",
       "Networking with data scientists",
     ],
-    callToAction:
-      "This session demystified machine learning and built confidence for deeper exploration.",
+    sessionOverview:[ 
+      "Understand the core idea behind regression and its use for predictions",
+      "Learn why SVMs are powerful for classification problems",
+      "Discover how decision trees simplify complex decisions",
+      "Analyze the strengths and weaknesses of each algorithm",
+      "Learn to choose the right algorithm for your project"
+    ],  
+    fromCommunity:[
+ "Week 11 helped demystify machine learning for our community. By breaking down complex algorithms into understandable concepts, we empowered participants to make informed decisions and build smarter AI solutions. It was a session that laid the groundwork for deeper exploration in data science and model development."
+    ] 
   },
   {
     week: 12,
@@ -284,7 +401,7 @@ export const eventsData = [
       "PiBi Technologies, Zudio Building Back Entrance, Opp. Income Tax Office, BB Kulam, Madurai",
     entry: "Free (Registration Required)",
     overview:
-      "This session unpacked the attention mechanism and transformer architecture powering modern AI models.",
+      "Focus where it matters—unlock the power of attention. ",
     objectives: [
       "Understand attention mechanism",
       "Learn how transformers process sequences",
@@ -297,8 +414,14 @@ export const eventsData = [
       "AI career mentorship",
       "Networking with researchers",
     ],
-    callToAction:
-      "This session bridged theory and real-world transformer applications.",
+    sessionOverview:[ 
+      "Understand the core idea of the attention mechanism and why it revolutionized AI",
+      "Learn how transformers process sequences without recurrence (RNNs)",
+      "Explore real-world applications of transformers in NLP, vision, and beyond",
+      "Gain the ability to explain transformer basics in simple, practical terms"
+    ],      
+    fromCommunity:[  
+"Week 12 empowered our community to understand the backbone of modern AI. By breaking down complex concepts into accessible insights, we helped participants build confidence in their technical understanding and prepare for deeper explorations in model design and deployment."    ] 
   },
   {
     week: 13,
@@ -311,7 +434,7 @@ export const eventsData = [
       "PiBi Technologies, Zudio Building Back Entrance, Opp. Income Tax Office, BB Kulam, Madurai",
     entry: "Free (Registration Required)",
     overview:
-      "This session explored efficient model training using fine-tuning, LoRA, and adapter methods.",
+      " Smarter tweaks, faster results—fine-tune with precision.",
     objectives: [
       "Understand when to fine-tune",
       "Learn LoRA and adapters",
@@ -324,8 +447,14 @@ export const eventsData = [
       "Guidance from mentors",
       "Networking with AI builders",
     ],
-    callToAction:
-      "This session showed how to do more with less in AI development.",
+    sessionOverview:[ 
+       "Understand when fine-tuning makes sense vs. starting from scratch",
+      "Learn simple methods like LoRA and adapters that save time and compute",
+      "Discover how small tweaks can lead to big improvements in real applications",
+      "Explore real-world use cases of parameter-efficient techniques"
+    ],      
+    fromCommunity:[
+ "Week 13 highlighted the power of doing more with less. By equipping members with efficient fine-tuning strategies, we helped them unlock new possibilities in AI development—without needing massive infrastructure. It was a session that blended technical depth with real-world relevance."    ]
   },
   {
     week: 14,
@@ -338,8 +467,8 @@ export const eventsData = [
       "PiBi Technologies, Zudio Building Back Entrance, Opp. Income Tax Office, BB Kulam, Madurai",
     entry: "Free (Registration Required)",
     overview:
-      "This session offered a practical deep dive into core ML training pipeline components and how they impact performance.",
-    objectives: [
+"Train like a pro—build pipelines that perform" ,
+   objectives: [
       "Understand optimizers",
       "Learn loss function roles",
       "Explore batching techniques",
@@ -351,8 +480,15 @@ export const eventsData = [
       "Career guidance",
       "Networking with engineers",
     ],
-    callToAction:
-      "This session turned complex ML training mechanics into practical strategies.",
+    sessionOverview:[ 
+      "Understand the role of optimizers in guiding model learning",
+      "Learn how loss functions measure performance and drive improvements",
+      "Explore how batching affects training speed and accuracy",
+      "Gain practical insights into designing efficient training pipelines"
+    ],      
+    fromCommunity:[
+      "Week 14 equipped our community with the tools to train smarter. By mastering the mechanics of model optimization, participants gained the confidence to build scalable, high-performing AI systems. It was a session that turned technical depth into practical power."    
+    ]
   },
   {
     week: 15,
@@ -365,7 +501,7 @@ export const eventsData = [
       "F.Robin Technologies, First Floor, 8, 120 Feet Rd, Surveyor Colony, Madurai – 625007",
     entry: "Free (Registration Required)",
     overview:
-      "A full-day workshop to fine-tune and deploy small language models using Hugging Face on custom datasets.",
+      " Your data, your model—fine-tuning made practical.",
     objectives: [
       "Prepare custom datasets",
       "Understand fine-tuning process",
@@ -378,8 +514,15 @@ export const eventsData = [
       "AI career mentorship",
       "Networking with researchers",
     ],
-    callToAction:
-      "This session empowered members to control and customize AI models locally.",
+    sessionOverview:[ 
+      "Learn how to prepare and structure a custom dataset for fine-tuning",
+      "Understand the step-by-step process of fine-tuning small models using Hugging Face",
+      "Explore how to evaluate and optimize model performance for specific tasks",
+      "Gain hands-on experience deploying and testing your fine-tuned model in real-world use cases"
+    ],      
+    fromCommunity:[
+           "Week 15 was a milestone in practical AI development. By empowering members to fine-tune and deploy their own models, we reinforced the community's mission: to build locally, think globally, and create solutions that matter. It was a session that turned learning into real-world impact.",
+    ]
   },
   {
     week: 16,
@@ -392,7 +535,7 @@ export const eventsData = [
       "PiBi Technologies, Zudio Building Back Entrance, Opp. Income Tax Office, BB Kulam, Madurai",
     entry: "Free (Registration Required)",
     overview:
-      "This session focused on deploying and optimizing fine-tuned models for inference in production.",
+"Deploy with confidence—optimize for real-world speed",
     objectives: [
       "Understand inference-ready models",
       "Learn the inference pipeline",
@@ -405,7 +548,14 @@ export const eventsData = [
       "AI career guidance",
       "Networking with practitioners",
     ],
-    callToAction:
-      "This session helped participants bring AI models into real-world production environments.",
+    sessionOverview:[ 
+      "Understand the difference between pre-trained, fine-tuned, and inference-ready models",
+      "Learn the inference pipeline: input preprocessing, model inference, postprocessing",
+      "Implement efficient inference using Transformers, ONNX Runtime, or TensorRT",
+      "Optimize latency and throughput using quantization, pruning, and batching"
+    ],      
+    fromCommunity:[
+     " Week 16 marked a shift from experimentation to execution. By mastering inference techniques, our community took a major step toward building scalable, production-grade AI solutions. It was a session that turned models into impact."
+    ] 
   },
 ];

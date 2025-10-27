@@ -64,31 +64,79 @@ export default function Page({ params }) {
             className="absolute -inset-px rounded-3xl pointer-events-none"
             aria-hidden
           >
-            <div className="h-full w-full rounded-3xl p-0.5 bg-gradient-to-r from-[#7c3aed] via-[#06b6d4] to-[#06d6a0] opacity-40 blur-[20px]" />
+            <div className="h-full w-full rounded-3xl p-0.5 bg-black/20 opacity-40 blur-[20px]" />
           </div>
 
-          <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-6 p-8 md:p-12">
-            <div className="col-span-2">
-              <h1 className="text-3xl md:text-5xl font-extrabold leading-tight tracking-tight">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-300">
-                  {event.title}
-                </span>
-              </h1>
+          {/* <div className="relative  grid grid-cols-1 md:grid-cols-3 gap-6 p-8 md:p-12">
+            <div className="col-span-2"> */}
+          <h1 className="text-4xl md:text-xl leading-relaxed tracking-tight">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-300">
+              <div className="font-extrabold text-4xl text-shadow-black mt-5 px-5 text-white">
+                {event.title}
+              </div>
+              <div>
+                <CardContent>
+                  <h4 className="mt-5 text-2xl font-semibold text-white">
+                    🌟Event Overview
+                  </h4>
 
-              <p className="mt-4 text-slate-300 max-w-2xl">{event.overview}</p>
+                  <div>
+                    <ul className="mt-2 list-disc list-inside text-slate-300 space-y-3">
+                      {event.objectives.map((o, idx) => (
+                        <li key={idx}>{o}</li>
+                      ))}
+                    </ul>
 
-              <div className="mt-6 flex gap-3 flex-wrap">
-                <Button variant="ghost" className="border border-white/6">
+                    <div>
+                      <h4 className="mt-5 text-2xl  font-semibold text-white">
+                        🤝 Community Benefits
+                      </h4>
+                      <ul className="mt-3 list-disc list-inside text-slate-300 space-y-2">
+                        {event.communityBenefits.map((b, idx) => (
+                          <li key={idx}>{b}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="mt-5  text-2xl font-semibold text-white">
+                        🎯Session Objectives
+                      </h4>
+                      <ul className="mt-3 list-disc list-inside text-slate-300 space-y-2">
+                        {event.sessionOverview.map((b, idx) => (
+                          <li key={idx}>{b}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="mt-5 text-2xl   font-semibold text-white">
+                        💬 From the Community, We Can Do
+                      </h4>
+                      <ul className="mt-3 list-disc list-inside text-slate-300 space-y-2">
+                        {event.fromCommunity.map((b, idx) => (
+                          <li key={idx}>{b}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </CardContent>
+              </div>
+            </span>
+          </h1>
+          {/* 
+          <p className="mt-4 text-slate-300 max-w-2xl">{event.overview}</p> */}
+
+          <div className="mt-3 flex gap-3 flex-wrap">
+            {/* <Button variant="ghost" className="border border-white/6">
                   <Calendar className="w-4 h-4 mr-2" />
                   {event.date} • {event.time}
-                </Button>
+                </Button> */}
 
-                <Button variant="ghost" className="border border-white/6">
+            {/* <Button variant="ghost" className="border border-white/6">
                   <MapPin className="w-4 h-4 mr-2" />
                   {event.venue}
-                </Button>
+                </Button> */}
 
-                <Button
+            {/* <Button
                   className="ml-1"
                   onClick={() =>
                     document
@@ -97,13 +145,45 @@ export default function Page({ params }) {
                   }
                 >
                   Register (Free)
-                </Button>
-              </div>
-            </div>
+                </Button> */}
+            {/* </div>
+            </div> */}
 
-            <aside className="space-y-4">
-              <Card className="bg-gradient-to-br w-full from-[#0b1221]/70 to-[#071028]/50 border border-white/6">
+            {/* <Card className="bg-gradient-to-br w-full from-[#0b1221]/70 to-[#071028]/50 border border-white/6 "> */}
+            {/* <Card className="p-6 bg-[rgba(255,255,255,0.02)] border border-white/6">
                 <CardHeader>
+                  <CardTitle className="text-lg text-white">
+                    🌟 Event Overview
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-300">{event.overview}</p>
+
+                  <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <h4 className="font-semibold text-white">
+                        🎯 EVENT OVERVI
+                      </h4>
+                      <ul className="mt-3 list-disc list-inside text-slate-300 space-y-2">
+                        {event.objectives.map((o, idx) => (
+                          <li key={idx}>{o}</li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h4 className="font-semibold">🤝 Community Benefits</h4>
+                      <ul className="mt-3 list-disc list-inside text-slate-300 space-y-2">
+                        {event.communityBenefits.map((b, idx) => (
+                          <li key={idx}>{b}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card> */}
+
+            {/* <CardHeader>
                   <CardTitle className="flex items-center flex-col gap-2 md:flex-row justify-between">
                     <span className="text-white">Entry</span>
                     <Badge className="text-sm">{event.entry}</Badge>
@@ -120,59 +200,29 @@ export default function Page({ params }) {
                       className="flex-1"
                       onClick={() =>
                         document
-                          .getElementById("register")
-                          .scrollIntoView({ behavior: "smooth" })
+                          .getElementById("register") */}
+            {/* .scrollIntoView({ behavior: "smooth" })
                       }
-                    >
-                      Register Now
+                    > */}
+            {/* Register Now
                     </Button>
                     <Button className="flex-1">Join Community</Button>
                   </div>
-                </CardFooter>
-              </Card>
+                </CardFooter> */}
+            {/* </Card> */}
 
-              <Card className="p-4 border border-white/6">
-                <div className="text-xs text-slate-800">Theme</div>
-                <div className="font-semibold">{event.theme}</div>
-                <Separator className="my-1" />
-                <div className="text-xs text-slate-400">Organizers</div>
-                <div className="text-sm text-slate-800">{event.organizer}</div>
-              </Card>
-            </aside>
+            {/* <Card className="p-4 border border-white/6">
+              <div className="text-xs text-slate-800">Theme</div>
+              <div className="font-semibold">{event.theme}</div>
+              <Separator className="my-1" />
+              <div className="text-xs text-slate-400">Organizers</div>
+              <div className="text-sm text-slate-800">{event.organizer}</div>
+            </Card> */}
           </div>
         </section>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-          <div className="md:col-span-2 space-y-6">
-            <Card className="p-6 bg-[rgba(255,255,255,0.02)] border border-white/6">
-              <CardHeader>
-                <CardTitle className="text-lg">🌟 Event Overview</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-slate-300">{event.overview}</p>
-
-                <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <h4 className="font-semibold">🎯 Session Objectives</h4>
-                    <ul className="mt-3 list-disc list-inside text-slate-300 space-y-2">
-                      {event.objectives.map((o, idx) => (
-                        <li key={idx}>{o}</li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold">🤝 Community Benefits</h4>
-                    <ul className="mt-3 list-disc list-inside text-slate-300 space-y-2">
-                      {event.communityBenefits.map((b, idx) => (
-                        <li key={idx}>{b}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
+        {/* <div className="gap-6 mt-8"> */}
+        {/* <div className="md:col-span-2 space-y-6">
             <Card className="p-6 bg-[rgba(255,255,255,0.02)] border border-white/6">
               <CardHeader>
                 <CardTitle className="text-lg">💬 From the Community</CardTitle>
@@ -198,70 +248,69 @@ export default function Page({ params }) {
                   </Button>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
+        {/* 
+          <div
+            id="register"
+            className="p-6 rounded-xl border border-white/6 bg-gradient-to-b from-[#071026]/50 to-transparent"
+          >
+            <h3 className="text-lg font-semibold">Register for Week {id}</h3>
+            <p className="mt-2 text-slate-300">
+              Quick register — we will confirm your seat via email.
+            </p>
 
-            <div
-              id="register"
-              className="p-6 rounded-xl border border-white/6 bg-gradient-to-b from-[#071026]/50 to-transparent"
-            >
-              <h3 className="text-lg font-semibold">Register for Week {id}</h3>
-              <p className="mt-2 text-slate-300">
-                Quick register — we will confirm your seat via email.
-              </p>
-
-              <form className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3">
-                <input
-                  className="bg-transparent border border-white/6 rounded-md px-3 py-2 outline-none"
-                  placeholder="Full name"
-                />
-                <input
-                  className="bg-transparent border border-white/6 rounded-md px-3 py-2 outline-none"
-                  placeholder="Email"
-                />
-                <input
-                  className="col-span-1 md:col-span-2 bg-transparent border border-white/6 rounded-md px-3 py-2 outline-none"
-                  placeholder="Comments (optional)"
-                />
-                <Button className="col-span-1 md:col-span-2">Submit</Button>
-              </form>
-            </div>
+            <form className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3">
+              <input
+                className="bg-transparent border border-white/6 rounded-md px-3 py-2 outline-none"
+                placeholder="Full name"
+              />
+              <input
+                className="bg-transparent border border-white/6 rounded-md px-3 py-2 outline-none"
+                placeholder="Email"
+              />
+              <input
+                className="col-span-1 md:col-span-2 bg-transparent border border-white/6 rounded-md px-3 py-2 outline-none"
+                placeholder="Comments (optional)"
+              />
+              <Button className="col-span-1 md:col-span-2">Submit</Button>
+            </form>
           </div>
-
-          <aside className="space-y-6">
-            <Card className="p-4 sticky top-6 bg-black border border-white/6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <div className="text-xs text-slate-400">Next meetup</div>
-                  <div className="font-semibold">
-                    Week {Number(id) + 1} — TBD
-                  </div>
-                </div>
-                <div>
-                  <Badge>Free</Badge>
-                </div>
-              </div>
-
-              <div className="mt-4 text-sm text-slate-300">
-                Keep an eye on the community page for updates.
-              </div>
-            </Card>
-
-            <Card className="p-4 bg-[rgba(255,255,255,0.02)] border border-white/6">
-              <div className="text-sm font-semibold">Organizers</div>
-              <div className="mt-3 text-xs text-slate-400">Core Team</div>
-              <ul className="mt-2 text-sm text-slate-300 space-y-2">
-                <li>Lead: Siranjeevi</li>
-                <li>Events: Team A</li>
-                <li>Community: Team B</li>
-              </ul>
-            </Card>
-          </aside>
         </div>
 
-        <footer className="mt-10 text-center text-sm text-slate-400">
-          Made with ❤️ by the Madurai AI Developers Community
-        </footer>
+        <aside className="space-y-6"> */}
+        {/* <Card className="p-4 sticky top-6 bg-black border border-white/6">
+            <div className="flex items-center justify-between">
+              <div>
+                <div className="text-xs text-slate-400">Next meetup</div>
+                <div className="font-semibold">Week {Number(id) + 1} — TBD</div>
+              </div>
+              <div>
+                <Badge>Free</Badge>
+              </div>
+            </div>
+
+            {/* <div className="mt-4 text-sm text-slate-300">
+              Keep an eye on the community page for updates.
+            </div> */}
+        {/* </Card> */}
+
+        <Card className=" bg-[rgba(255,255,255,0.02)] border border-white/6">
+          <div className="text-sm  text-slate-400 font-semibold">
+            Organizers
+          </div>
+          <div className=" text-xs text-slate-400">Core Team</div>
+          <ul className=" text-sm text-slate-300 space-y-2">
+            <li>Lead: Siranjeevi</li>
+            <li>Events: Team A</li>
+            <li>Community: Team B</li>
+          </ul>
+        </Card>
+        {/* </aside> */}
       </div>
+
+      <footer className="mt-10 text-center text-sm text-slate-400">
+        Made with ❤️ by the Madurai AI Developers Community
+      </footer>
     </div>
   );
 }
