@@ -4,14 +4,7 @@ import { Menu } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "./ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./ui/sheet";
 import { cn } from "@/lib/utils";
 
 const NavBar = () => {
@@ -46,7 +39,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <nav className="w-full z-[1000] flex justify-between relative items-center text-white max-w-10xl mx-auto p-`10">
+    <nav className="w-screen px-6 py-4 z-[1000] flex justify-between relative items-center text-white">
       <div></div>
       <div className="hidden gap-7 md:flex relative">
         {navItems.map((item) =>
@@ -95,7 +88,7 @@ const NavBar = () => {
         )}
       </div>
 
-      <Sheet className="bg-black">
+      <Sheet className="block md:hidden">
         <SheetTrigger className="px-4">
           <Menu className="text-white block md:hidden" />
         </SheetTrigger>

@@ -14,7 +14,6 @@ export default function Home() {
   return (
     <div className="w-screen bg-white min-h-screen">
       <Section1 />
-
       <Section2 />
       <div className="bg-black ">
         <Section3 />
