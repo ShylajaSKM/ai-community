@@ -64,7 +64,7 @@ export default function Page({ params }) {
             className="absolute -inset-px rounded-3xl pointer-events-none"
             aria-hidden
           >
-            <div className="h-full w-full rounded-3xl p-0.5 bg-black/20 opacity-40 blur-[20px]" />
+            <div className="h-full w-full rounded-3xl p-0.5 bg-black/20     opacity-40 blur-[20px]" />
           </div>
 
           {/* <div className="relative  grid grid-cols-1 md:grid-cols-3 gap-6 p-8 md:p-12">
