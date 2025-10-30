@@ -124,6 +124,69 @@ Approaches          </CardTitle>
           </Button>
         </CardFooter>
       </Card>
+      <Card className="w-full max-w-sm bg-gray-900 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl">
+        <CardHeader>
+          <CardTitle className="text-xl font-semibold">6.Full Stack App Development with AI Integration
+          </CardTitle>
+        </CardHeader>
+
+        <CardContent>
+          <p className="text-gray-400 text-sm">
+Building the Next Generation of Smart Applications          </p>
+        </CardContent>
+
+        <CardFooter>
+          <Button
+            onClick={handleReadMore}
+            className="w-full bg-blue-600 hover:bg-blue-700"
+          >
+            Read More
+          </Button>
+        </CardFooter>
+      </Card>
+      <Card className="w-full max-w-sm bg-gray-900 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl">
+        <CardHeader>
+          <CardTitle className="text-xl font-semibold">7. The GenAI Ecosystem for Modern Product
+Development
+          </CardTitle>
+        </CardHeader>
+
+        <CardContent>
+          <p className="text-gray-400 text-sm">
+The Dawn of Generative Intelligence          </p>
+        </CardContent>
+
+        <CardFooter>
+          <Button
+            onClick={handleReadMore}
+            className="w-full bg-blue-600 hover:bg-blue-700"
+          >
+            Read More
+          </Button>
+        </CardFooter>
+      </Card>
+      <Card className="w-full max-w-sm bg-gray-900 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl">
+        <CardHeader>
+          <CardTitle className="text-xl font-semibold">8.Building Agentic RAG Applications: The Future of
+Intelligent AI Systems
+          </CardTitle>
+        </CardHeader>
+
+        <CardContent>
+          <p className="text-gray-400 text-sm">
+From Static AI to Intelligent Agents         </p>
+        </CardContent>
+
+        <CardFooter>
+          <Button
+            onClick={handleReadMore}
+            className="w-full bg-blue-600 hover:bg-blue-700"
+          >
+            Read More
+          </Button>
+        </CardFooter>
+      </Card>
+      
       
       
     </div>
