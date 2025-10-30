@@ -16,7 +16,7 @@ export default function BlogCard() {
       <Card className="w-full max-w-sm bg-gray-900 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl">
         <CardHeader>
           <CardTitle className="text-xl font-semibold">
-            AI Product Thinking — From Ideas to Intelligent Solutions
+            1.AI Product Thinking — From Ideas to Intelligent Solutions
           </CardTitle>
         </CardHeader>
 
@@ -57,7 +57,74 @@ export default function BlogCard() {
           </Button>
         </CardFooter>
       </Card>
+      <Card className="w-full max-w-sm bg-gray-900 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl">
+        <CardHeader>
+          <CardTitle className="text-xl font-semibold">
+            3: Building AI MVPs That Solve Real Problems
+Transforming Concepts into Impactful AI Prototypes
+          </CardTitle>
+        </CardHeader>
 
+        <CardContent>
+          <p className="text-gray-400 text-sm">
+            From Vision to Validation
+          </p>
+        </CardContent>
+
+        <CardFooter>
+          <Button
+            onClick={handleReadMore}
+            className="w-full bg-blue-600 hover:bg-blue-700"
+          >
+            Read More
+          </Button>
+        </CardFooter>
+      </Card>
+      <Card className="w-full max-w-sm bg-gray-900 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl">
+        <CardHeader>
+          <CardTitle className="text-xl font-semibold">
+4.Scaling Your AI Product with PLG & GTM Strategies
+Driving Growth Through Product-Led and Market-Driven
+Approaches          </CardTitle>
+        </CardHeader>
+
+        <CardContent>
+          <p className="text-gray-400 text-sm">
+            The Growth Challenge for AI Startups
+          </p>
+        </CardContent>
+
+        <CardFooter>
+          <Button
+            onClick={handleReadMore}
+            className="w-full bg-blue-600 hover:bg-blue-700"
+          >
+            Read More
+          </Button>
+        </CardFooter>
+      </Card>
+      <Card className="w-full max-w-sm bg-gray-900 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl">
+        <CardHeader>
+          <CardTitle className="text-xl font-semibold">5: Execution Excellence — Turning AI Knowledge into Action2.Designing Intuitive AI Experiences — The Role of UI/UX
+          </CardTitle>
+        </CardHeader>
+
+        <CardContent>
+          <p className="text-gray-400 text-sm">
+            Beyond Learning — It’s About Doing
+          </p>
+        </CardContent>
+
+        <CardFooter>
+          <Button
+            onClick={handleReadMore}
+            className="w-full bg-blue-600 hover:bg-blue-700"
+          >
+            Read More
+          </Button>
+        </CardFooter>
+      </Card>
+      
       
     </div>
   );
