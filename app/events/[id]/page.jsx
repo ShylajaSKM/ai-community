@@ -111,8 +111,10 @@ export default function Page({ params }) {
               <div className="text-sm text-slate-400 font-semibold">
                 Organizers
               </div>
-              <div className="text-xs text-slate-400 mt-1">Core Team</div>
-              <ul className="text-sm text-slate-300 space-y-2 mt-2">
+              <div className="text-xs text-start text-slate-400 mt-1">
+                Core Team
+              </div>
+              <ul className="text-sm text-start text-slate-300 space-y-2 mt-2">
                 <li>Lead: Siranjeevi</li>
                 <li>Events: Team A</li>
                 <li>Community: Team B</li>
