@@ -1,3 +1,5 @@
+"use client";
+
 const Footer = () => {
   return (
     <div>
@@ -31,13 +33,13 @@ const Footer = () => {
         <div className="w-full max-w-7xl flex flex-col justify-center gap-2 px-5 h-max mx-auto items-center">
           <p className="pb-3 justify-center">© 2025 AI Product Hive</p>
           <button
-            className="bg-gradient-to-tr from-orange-300 to-orange-400 
-                   hover:from-orange-400 hover:to-orange-500 
-                   flex gap-2 items-center 
-                   text-black hover:text-black
-                   px-5 py-3 rounded text-sm font-semibold uppercase 
-                   transition-all duration-600 hover:scale-109 hover:shadow-lg 
-                   cursor-pointer"
+            onClick={() =>
+              window.open(
+                "https://chat.whatsapp.com/DTAYxvdJW8Z2CT82WcaWlY",
+                "_blank"
+              )
+            }
+            className="bg-gradient-to-tr from-orange-300 to-orange-400 hover:from-orange-400 hover:to-orange-500 flex gap-2 items-center text-black hover:text-black px-5 py-3 rounded text-sm font-semibold uppercase transition-all duration-600 hover:scale-109 hover:shadow-lg cursor-pointer"
           >
             Join Us on Slack
           </button>

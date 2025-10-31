@@ -31,7 +31,10 @@ const Section6 = () => {
           building an MVP or scaling fast, our team can support you every step
           of the way.
         </p>
-        <Link href="/" className="text-sm md:text-xl">
+        <Link
+          href="https://chat.whatsapp.com/DTAYxvdJW8Z2CT82WcaWlY"
+          className="text-sm md:text-xl"
+        >
           <span className="text-[#FF6B1E]">»</span>{" "}
           <span className="text-[#FFAD06] underline leading-[1.2]">
             Let’s talk — no strings attached

@@ -1,4 +1,3 @@
-
 import {
   AlignCenter,
   BrainCircuit,
@@ -79,11 +78,11 @@ const Section2 = () => {
           </div>
         ))}
       </div>
-      <button className="bg-gradient-to-tr from-orange-300 to-orange-400 hover:from-orange-400 hover:to-orange-500 flex gap-2 items-center text-black hover:text-black px-5 py-3 rounded text-sm font-semibold uppercase transition-all duration-600 hover:scale-109 hover:shadow-lg cursor-pointer">
+      {/* <button className="bg-gradient-to-tr from-orange-300 to-orange-400 hover:from-orange-400 hover:to-orange-500 flex gap-2 items-center text-black hover:text-black px-5 py-3 rounded text-sm font-semibold uppercase transition-all duration-600 hover:scale-109 hover:shadow-lg cursor-pointer">
         <BrainCircuit />
         Join Us This Saturday
-      </button>
-      <p className="text-md font-bold text-center  text-gray-900">
+      </button> */}
+      <p className="text-lg font-bold text-center  text-gray-900">
         ( It's 100% Free! )
       </p>
       <div>

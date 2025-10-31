@@ -38,7 +38,7 @@ const Section4 = () => {
         </p>
         <button className="bg-gradient-to-tr from-orange-300 to-orange-400 hover:from-orange-400 hover:to-orange-500 flex gap-2 items-center text-black hover:text-black px-5 py-3 rounded text-sm font-semibold uppercase transition-all duration-600 hover:scale-109 hover:shadow-lg cursor-pointer">
           <BrainCircuit />
-          Join Us on Slack
+          Connect with AI Minds
         </button>
       </div>
     </div>

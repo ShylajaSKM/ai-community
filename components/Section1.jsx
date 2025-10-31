@@ -1,3 +1,4 @@
+"use client";
 import { BrainCircuit } from "lucide-react";
 import Image from "next/image";
 import { SkiperMarquee } from "./ui/skiper-marquee";
@@ -15,9 +16,16 @@ const Section1 = () => {
               where innovators, creators, and learners come together to exchange
               ideas, tackle challenges, and spark meaningful collaborations.
             </p>
-            <button className="bg-gradient-to-tr from-orange-300 to-orange-400 hover:from-orange-400 hover:to-orange-500  flex gap-2 items-center  text-black hover:text-black px-5 py-3 rounded text-sm font-semibold uppercase transition-all duration-600 hover:scale-109 hover:shadow-lg cursor-pointer">
-              <BrainCircuit />
-              Join Us on Saturday
+            <button
+              onClick={() =>
+                window.open(
+                  "https://chat.whatsapp.com/DTAYxvdJW8Z2CT82WcaWlY",
+                  "_blank"
+                )
+              }
+              className="bg-gradient-to-tr from-orange-300 to-orange-400 hover:from-orange-400 hover:to-orange-500 flex gap-2 items-center text-black hover:text-black px-5 py-3 rounded text-sm font-semibold uppercase transition-all duration-600 hover:scale-109 hover:shadow-lg cursor-pointer"
+            >
+              Connect with AI Innovators - Free Forever
             </button>
           </div>
         </div>
