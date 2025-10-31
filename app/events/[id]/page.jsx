@@ -53,21 +53,21 @@ export default function Page({ params }) {
 
         {/* Main Card */}
         <section className="relative rounded-3xl overflow-hidden shadow-2xl bg-[rgba(255,255,255,0.03)] ring-1 ring-white/10 backdrop-blur-md border border-white/10 p-6 md:p-10 text-center md:text-left">
-          <h1 className="font-extrabold text-3xl md:text-4xl text-white mb-6">
+          <h1 className="font-extrabold text-center text-3xl md:text-4xl bg-gradient-to-r from-yellow-200 via-yellow-500 to-orange-500 bg-clip-text text-transparent mb-6">
             {event.title}
           </h1>
 
           <CardContent className="p-0">
-            <h4 className="mt-5 text-2xl font-semibold text-white text-start md:text-left">
+            <h4 className="mt-5 text-2xl font-semibold text-yellow-400 text-start md:text-left">
               🌟 Event Overview
             </h4>
-            <ul className="mt-2 list-disc list-inside text-slate-300 space-y-3 text-left">
+            <ul className="mt-2  text-slate-300 space-y-3 text-left">
               {event.objectives.map((o, idx) => (
                 <li key={idx}>{o}</li>
               ))}
             </ul>
 
-            <h4 className="mt-8 text-2xl font-semibold text-white text-start md:text-left">
+            <h4 className="mt-8 text-2xl font-semibold text-yellow-400 text-start md:text-left">
               🤝 Community Benefits
             </h4>
             <ul className="mt-3 list-disc list-inside text-slate-300 space-y-2 text-left">
@@ -78,7 +78,7 @@ export default function Page({ params }) {
 
             {event.sessionOverview && (
               <>
-                <h4 className="mt-8 text-2xl font-semibold text-white text-start md:text-left">
+                <h4 className="mt-8 text-2xl font-semibold text-yellow-400 text-start md:text-left">
                   🎯 Session Objectives
                 </h4>
                 <ul className="mt-3 list-disc list-inside text-slate-300 space-y-2 text-left">
@@ -91,10 +91,10 @@ export default function Page({ params }) {
 
             {event.fromCommunity && (
               <>
-                <h4 className="mt-8 text-2xl font-semibold text-white text-start md:text-left">
+                <h4 className="mt-8 text-2xl font-semibold text-yellow-400 text-start md:text-left">
                   💬 From the Community, We Can Do
                 </h4>
-                <ul className="mt-3 list-disc list-inside text-slate-300 space-y-2 text-left">
+                <ul className="mt-3  text-slate-300 space-y-2 text-left">
                   {event.fromCommunity.map((b, idx) => (
                     <li key={idx}>{b}</li>
                   ))}
@@ -108,7 +108,7 @@ export default function Page({ params }) {
         <div className="mt-8">
           <Card className="bg-[rgba(255,255,255,0.02)] border border-white/10 text-center md:text-left">
             <div className="p-5">
-              <div className="text-sm text-slate-400 font-semibold">
+              <div className="text-sm text-slate-200 font-semibold">
                 Organizers
               </div>
               <div className="text-xs text-start text-slate-400 mt-1">
