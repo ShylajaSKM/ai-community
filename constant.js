@@ -567,6 +567,10 @@ export const blogPosts = [
     "content": "AI Product Thinking — From Ideas to Intelligent Solutions"
   },
   {
+    "type":"Small",
+    "content":"From idea to impact—build AI that matters"
+  },
+  {
     "type": "para",
     "content": "In today’s innovation-driven world, building successful AI products requires more than just technical brilliance—it demands strategic thinking. Many organizations rush to adopt AI because it’s trending, but very few step back and ask the most important question: What real problem are we solving?"
   },
@@ -687,6 +691,10 @@ export const blogPosts = [
   {
     "type": "heading",
     "content": "Designing Intuitive AI Experiences — The Role of UI/UX"
+  },
+  {
+    "type":"Small",
+    "content":"Design trust, not just interfaces"
   },
   {
     "type": "para",
@@ -846,6 +854,10 @@ export const blogPosts = [
   {
     "type": "heading",
     "content": "Building AI MVPs That Solve Real Problems"
+  },
+  {
+    "type":"Small",
+    "content":"Start small, solve big—your AI MVP journey begins here"
   },
   {
     "type": "title",
@@ -1044,6 +1056,10 @@ export const blogPosts = [
     "content": "4. Scaling Your AI Product with PLG & GTM Strategies"
   },
   {
+    "type":"Small",
+    "content":"Let your product speak, scale, and sell itself"
+  },
+  {
     "type": "para",
     "content": "Driving Growth Through Product-Led and Market-Driven Approaches"
   },
@@ -1193,6 +1209,10 @@ export const blogPosts = [
   {
     "type": "heading",
     "content": "5. Execution Excellence — Turning AI Knowledge into Action"
+  },
+  {
+    "type":"Small",
+    "content":"Turn learning into action—build, test, repeat"
   },
   {
     "type": "title",
@@ -1345,6 +1365,10 @@ export const blogPosts = [
   {
     "type": "heading",
     "content": "6. Full Stack App Development with AI Integration"
+  },
+  {
+    "type":"Small",
+    "content":"Code the future—AI-powered apps from front to back"
   },
   {
     "type": "para",
@@ -1511,6 +1535,10 @@ export const blogPosts = [
   {
     "type": "heading",
     "content": "7. The GenAI Ecosystem for Modern Product Development"
+  },
+  {
+    "type":"Small",
+    "content":"Build smarter—map GenAI to real-world workflows"
   },
   {
     "type": "title",
@@ -1692,6 +1720,10 @@ export const blogPosts = [
   {
     "type": "heading",
     "content": "8.Building Agentic RAG Applications: The Future of Intelligent AI Systems"
+  },
+  {
+    "type":"Small",
+    "content":"Autonomous apps, powered by reasoning and retrieval"
   },
   {
     "type": "title",

@@ -60,7 +60,7 @@ export default function BlogCard() {
 
   return (
     <div className="min-h-screen bg-gray-950 p-10">
-      <h1 className="text-3xl font-bold text-center text-white mb-10">
+      <h1 className="text-6xl text-center font-bold mb-12 bg-gradient-to-r from-blue-400 via-indigo-300 to-purple-200 bg-clip-text text-transparent ">
         AI Blog Series
       </h1>
 
@@ -71,7 +71,6 @@ export default function BlogCard() {
             className="w-full max-w-xl bg-gray-900 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl flex flex-col justify-between items-center"
           >
             <CardContent className="flex w-full flex-1 flex-col items-center gap-2">
-              <h1 className="text-xl font-semibold">{blog.title}</h1>
               <div className="w-[90%] mx-auto aspect-square object-cover rounded-t-none rounded-b-sm relative">
                 <Image
                   src={`/images/W${blog.id}.jpg`}
