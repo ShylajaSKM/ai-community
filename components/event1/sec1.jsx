@@ -26,23 +26,7 @@ const Event1sec1 = ({ event, index }) => {
         <h3 className="text-3xl text-yellow-400 text-center font-bold">
           Topic - {event.title}
         </h3>
-        {/* <h3 className="md:text-xl max-w-[90%]">
-          <strong>Madurai AI Developer Community</strong>{" "}
-        </h3> */}
 
-        {/* <p className="text-left test-left text-lg md:text-xl max-w-[90%]">
-          <strong className="text-yellow-400">Theme :</strong> Code Local Think
-          Global
-        </p> */}
-        {/* <p className="text-left text-lg md:text-xl max-w-[90%]">
-          <strong className="text-left text-yellow-400">Time :</strong> 4 PM to
-          6 PM
-        </p> */}
-        {/* 
-        <p className=" text-left text-lg md:text-xl max-w-[90%]">
-          <strong className="text-left text-yellow-400">Entry :</strong>{" "}
-          Free(Registration must)
-        </p> */}
         <p className=" text-lg text-center md:text-xl max-w-[90%]">
           <strong className="text-left text-yellow-400"></strong>{" "}
           {event.overview}
