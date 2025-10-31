@@ -35,7 +35,7 @@ export default function Page({ params }) {
             </Avatar>
 
             <div className="leading-tight">
-              <div className="text-xs text-slate-400">Hosted by</div>
+              <div className="text-xs text-start text-slate-400">Hosted by</div>
               <div className="font-semibold">{event.organizer}</div>
             </div>
           </div>
