@@ -563,7 +563,7 @@ export const eventsData = [
 export const blogPosts = [
   [
   {
-    "type": "title",
+    "type": "heading",
     "content": "AI Product Thinking — From Ideas to Intelligent Solutions"
   },
   {
@@ -668,7 +668,7 @@ export const blogPosts = [
   },
   {
     "type": "title",
-    "content": "Conclusion: Turning AI Vision into Business Reality"
+    "content": "Turning AI Vision into Business Reality"
   },
   {
     "type": "para",
@@ -685,7 +685,7 @@ export const blogPosts = [
 ],
 [
   {
-    "type": "title",
+    "type": "heading",
     "content": "Designing Intuitive AI Experiences — The Role of UI/UX"
   },
   {
@@ -844,7 +844,7 @@ export const blogPosts = [
 ],
 [
   {
-    "type": "title",
+    "type": "heading",
     "content": "Building AI MVPs That Solve Real Problems"
   },
   {
@@ -1040,7 +1040,7 @@ export const blogPosts = [
 ],
 [
   {
-    "type": "title",
+    "type": "heading",
     "content": "4. Scaling Your AI Product with PLG & GTM Strategies"
   },
   {
@@ -1191,7 +1191,7 @@ export const blogPosts = [
 ],
 [
   {
-    "type": "title",
+    "type": "heading",
     "content": "5. Execution Excellence — Turning AI Knowledge into Action"
   },
   {
@@ -1343,7 +1343,7 @@ export const blogPosts = [
 ],
 [
   {
-    "type": "title",
+    "type": "heading",
     "content": "6. Full Stack App Development with AI Integration"
   },
   {
@@ -1509,7 +1509,7 @@ export const blogPosts = [
 ],
 [
   {
-    "type": "title",
+    "type": "heading",
     "content": "7. The GenAI Ecosystem for Modern Product Development"
   },
   {
@@ -1690,7 +1690,7 @@ export const blogPosts = [
 ],
 [
   {
-    "type": "title",
+    "type": "heading",
     "content": "8.Building Agentic RAG Applications: The Future of Intelligent AI Systems"
   },
   {
