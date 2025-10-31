@@ -58,7 +58,7 @@ export default function Page({ params }) {
           </h1>
 
           <CardContent className="p-0">
-            <h4 className="mt-5 text-2xl font-semibold text-white text-center md:text-left">
+            <h4 className="mt-5 text-2xl font-semibold text-white text-start md:text-left">
               🌟 Event Overview
             </h4>
             <ul className="mt-2 list-disc list-inside text-slate-300 space-y-3 text-left">
@@ -67,7 +67,7 @@ export default function Page({ params }) {
               ))}
             </ul>
 
-            <h4 className="mt-8 text-2xl font-semibold text-white text-center md:text-left">
+            <h4 className="mt-8 text-2xl font-semibold text-white text-start md:text-left">
               🤝 Community Benefits
             </h4>
             <ul className="mt-3 list-disc list-inside text-slate-300 space-y-2 text-left">
@@ -78,7 +78,7 @@ export default function Page({ params }) {
 
             {event.sessionOverview && (
               <>
-                <h4 className="mt-8 text-2xl font-semibold text-white text-center md:text-left">
+                <h4 className="mt-8 text-2xl font-semibold text-white text-start md:text-left">
                   🎯 Session Objectives
                 </h4>
                 <ul className="mt-3 list-disc list-inside text-slate-300 space-y-2 text-left">
@@ -91,7 +91,7 @@ export default function Page({ params }) {
 
             {event.fromCommunity && (
               <>
-                <h4 className="mt-8 text-2xl font-semibold text-white text-center md:text-left">
+                <h4 className="mt-8 text-2xl font-semibold text-white text-start md:text-left">
                   💬 From the Community, We Can Do
                 </h4>
                 <ul className="mt-3 list-disc list-inside text-slate-300 space-y-2 text-left">
