@@ -1,6 +1,12 @@
 "use client";
 
-import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardContent,
+  CardFooter,
+} from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 
@@ -12,7 +18,7 @@ export default function BlogCard() {
   };
 
   return (
-    <div className="bg-gray-950 flex items-center  p-6">
+    <div className="bg-gray-950 flex items-center justify-center p-6">
       <Card className="w-full max-w-sm bg-gray-900 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl">
         <CardHeader>
           <CardTitle className="text-xl font-semibold">
@@ -60,15 +66,13 @@ export default function BlogCard() {
       <Card className="w-full max-w-sm bg-gray-900 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl">
         <CardHeader>
           <CardTitle className="text-xl font-semibold">
-            3: Building AI MVPs That Solve Real Problems
-Transforming Concepts into Impactful AI Prototypes
+            3: Building AI MVPs That Solve Real Problems Transforming Concepts
+            into Impactful AI Prototypes
           </CardTitle>
         </CardHeader>
 
         <CardContent>
-          <p className="text-gray-400 text-sm">
-            From Vision to Validation
-          </p>
+          <p className="text-gray-400 text-sm">From Vision to Validation</p>
         </CardContent>
 
         <CardFooter>
@@ -83,9 +87,9 @@ Transforming Concepts into Impactful AI Prototypes
       <Card className="w-full max-w-sm bg-gray-900 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl">
         <CardHeader>
           <CardTitle className="text-xl font-semibold">
-4.Scaling Your AI Product with PLG & GTM Strategies
-Driving Growth Through Product-Led and Market-Driven
-Approaches          </CardTitle>
+            4.Scaling Your AI Product with PLG & GTM Strategies Driving Growth
+            Through Product-Led and Market-Driven Approaches{" "}
+          </CardTitle>
         </CardHeader>
 
         <CardContent>
@@ -105,7 +109,9 @@ Approaches          </CardTitle>
       </Card>
       <Card className="w-full max-w-sm bg-gray-900 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl">
         <CardHeader>
-          <CardTitle className="text-xl font-semibold">5: Execution Excellence — Turning AI Knowledge into Action2.Designing Intuitive AI Experiences — The Role of UI/UX
+          <CardTitle className="text-xl font-semibold">
+            5: Execution Excellence — Turning AI Knowledge into
+            Action2.Designing Intuitive AI Experiences — The Role of UI/UX
           </CardTitle>
         </CardHeader>
 
@@ -126,13 +132,15 @@ Approaches          </CardTitle>
       </Card>
       <Card className="w-full max-w-sm bg-gray-900 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl">
         <CardHeader>
-          <CardTitle className="text-xl font-semibold">6.Full Stack App Development with AI Integration
+          <CardTitle className="text-xl font-semibold">
+            6.Full Stack App Development with AI Integration
           </CardTitle>
         </CardHeader>
 
         <CardContent>
           <p className="text-gray-400 text-sm">
-Building the Next Generation of Smart Applications          </p>
+            Building the Next Generation of Smart Applications{" "}
+          </p>
         </CardContent>
 
         <CardFooter>
@@ -146,14 +154,15 @@ Building the Next Generation of Smart Applications          </p>
       </Card>
       <Card className="w-full max-w-sm bg-gray-900 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl">
         <CardHeader>
-          <CardTitle className="text-xl font-semibold">7. The GenAI Ecosystem for Modern Product
-Development
+          <CardTitle className="text-xl font-semibold">
+            7. The GenAI Ecosystem for Modern Product Development
           </CardTitle>
         </CardHeader>
 
         <CardContent>
           <p className="text-gray-400 text-sm">
-The Dawn of Generative Intelligence          </p>
+            The Dawn of Generative Intelligence{" "}
+          </p>
         </CardContent>
 
         <CardFooter>
@@ -167,14 +176,16 @@ The Dawn of Generative Intelligence          </p>
       </Card>
       <Card className="w-full max-w-sm bg-gray-900 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl">
         <CardHeader>
-          <CardTitle className="text-xl font-semibold">8.Building Agentic RAG Applications: The Future of
-Intelligent AI Systems
+          <CardTitle className="text-xl font-semibold">
+            8.Building Agentic RAG Applications: The Future of Intelligent AI
+            Systems
           </CardTitle>
         </CardHeader>
 
         <CardContent>
           <p className="text-gray-400 text-sm">
-From Static AI to Intelligent Agents         </p>
+            From Static AI to Intelligent Agents{" "}
+          </p>
         </CardContent>
 
         <CardFooter>
@@ -186,9 +197,6 @@ From Static AI to Intelligent Agents         </p>
           </Button>
         </CardFooter>
       </Card>
-      
-      
-      
     </div>
   );
 }

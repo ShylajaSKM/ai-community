@@ -8,6 +8,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./ui/sheet";
 import { cn } from "@/lib/utils";
 
 const NavBar = () => {
+  const [isMobileActive, setIsMobileActive] = useState(false);
   const navItems = [
     {
       name: "Home",
@@ -15,7 +16,7 @@ const NavBar = () => {
     },
     {
       name: "Community Events",
-      path: "/events",
+      path: "",
       subItems: [
         { name: "Past Events", path: "/events/past-events" },
         // { name: "Upcoming Events", path: "/events/upcoming-events" },
@@ -29,6 +30,7 @@ const NavBar = () => {
 
   const pathName = usePathname();
   const [isActive, setIsActive] = useState(false);
+  console.log(pathName);
 
   useEffect(() => {
     const handleClickOutside = () => {
@@ -38,15 +40,22 @@ const NavBar = () => {
     document.addEventListener("click", handleClickOutside);
   }, []);
 
+  const formatPathName = (path) => {
+    if (path === "/events/past-events" || path === "/events/upcoming-events") {
+      return "Community Events";
+    }
+    return path;
+  };
+
   return (
-    <nav className="w-screen px-6 py-4 z-[1000] flex justify-between relative items-center text-white">
+    <nav className="w-screen px-6 py-4 flex justify-between relative items-center text-white">
       <div></div>
       <div className="hidden gap-7 md:flex relative">
         {navItems.map((item) =>
           item.subItems ? (
             <div key={item.name} className="relative group">
               <button
-                className={`flex items-center text-md font-medium ${
+                className={`flex items-center  text-md font-medium ${
                   pathName === item.path
                     ? "text-orange-400"
                     : "hover:text-orange-300"
@@ -55,6 +64,7 @@ const NavBar = () => {
               >
                 {item.name}
               </button>
+
               <div
                 className={cn(
                   "absolute top-full left-0 flex-col bg-black rounded shadow-md mt-1 min-w-[150px] z-10",
@@ -77,7 +87,7 @@ const NavBar = () => {
               key={item.name}
               href={item.path}
               className={`text-md font-medium ${
-                pathName === item.path
+                formatPathName(pathName) === item.path
                   ? "text-orange-400"
                   : "hover:text-orange-300"
               }`}
@@ -89,23 +99,39 @@ const NavBar = () => {
       </div>
 
       <Sheet className="block md:hidden">
-        <SheetTrigger className="px-4">
+        <SheetTrigger className="md:px-4">
           <Menu className="text-white block md:hidden" />
         </SheetTrigger>
         <SheetContent>
           <SheetHeader>
             {navItems.map((item) => (
-              <Link
-                href={item.path}
-                key={item.name}
-                className={`block text-md font-medium ${
-                  pathName === item.path
-                    ? "text-orange-400"
-                    : "hover:text-orange-300"
-                }`}
-              >
-                {item.name}
-              </Link>
+              <div key={item.name}>
+                <Link
+                  href={item.path}
+                  onClick={() => setIsMobileActive(true)}
+                  className={`block text-md font-medium ${
+                    pathName === item.path
+                      ? "text-orange-400"
+                      : "hover:text-orange-300"
+                  }`}
+                >
+                  {item.name}
+                </Link>
+                {isMobileActive && (
+                  <div>
+                    {item.subItems &&
+                      item.subItems.map((sub) => (
+                        <Link
+                          key={sub.name}
+                          href={sub.path}
+                          className="px-4 py-2 text-white hover:bg-orange-500 hover:text-black block"
+                        >
+                          {sub.name}
+                        </Link>
+                      ))}
+                  </div>
+                )}
+              </div>
             ))}
           </SheetHeader>
         </SheetContent>

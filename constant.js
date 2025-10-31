@@ -151,12 +151,7 @@ export const eventsData = [
     overview:
 "Turn learning into action—build, test, repeat.",
     objectives: [
-      "Apply concepts from AI product thinking, design, and development",
-      "Start building or refining your own AI project",
-      "Collaborate with peers to validate ideas and prototypes",
-      "Receive feedback from mentors and community members",
-      "Prepare to showcase your work in future meetups or hackathons",
-    ],
+"Week 5 marked a pivotal moment in our learning journey—where theory met practice. This session was all about execution. Participants took the insights gained from the previous four weeks and began shaping them into tangible outcomes. From MVPs to UI/UX flows, from product thinking to GTM strategies—this was the week to build, test, and iterate."    ],
     communityBenefits: [
       "Weekly hands-on sessions",
       "Peer and mentor-led code reviews",
@@ -190,11 +185,7 @@ export const eventsData = [
     overview:
       "Code the future—AI-powered apps from front to back.",
     objectives: [
-      "Gain the skill to connect front-end and back-end using AI",
-      "Build real, working apps faster with AI guidance",
-      "Confidently store and manage app data",
-      "Understand AI tools for full-stack application development",
-    ],
+"This session was a hands-on dive into Full Stack Development powered by AI. Participants explored how to connect front-end and back-end systems seamlessly, manage data confidently, and accelerate app development using AI tools. It was a practical, builder-focused session designed to help developers turn ideas into working applications."    ],
     communityBenefits: [
       "Weekly learning sessions with practical takeaways",
       "Real-world projects and code reviews",
@@ -259,9 +250,7 @@ export const eventsData = [
     overview:
       "Autonomous apps, powered by reasoning and retrieval.",
     objectives: [
-      "Build autonomous RAG-powered AI applications",
-      "Master reasoning, planning, and knowledge retrieval techniques",
-      "Apply Agentic RAG in real-world business use cases",
+     "This session introduced participants to the cutting-edge concept of Agentic RAG (Retrieval-Augmented Generation) and its application in building autonomous AI systems. Attendees explored how reasoning, planning, and knowledge retrieval can be orchestrated to create intelligent, self-directed AI apps. It was a hands-on, future-focused session designed for developers ready to push boundaries."
     ],
     communityBenefits: [
       "Weekly sessions with advanced topics",
@@ -292,11 +281,7 @@ export const eventsData = [
     overview:
       " Choose wisely—your AI strategy starts with clarity.",
     objectives: [
-      "Understand the differences between Fine-tuning, RAG, and Prompt Engineering",
-      "Learn when to use each approach",
-      "Compare cost, accuracy, and scalability",
-      "Explore practical examples and demos",
-      "Use a framework to choose the right AI strategy",
+      "This session was designed to help participants navigate the evolving landscape of AI development strategies. By comparing Fine-tuning, Retrieval-Augmented Generation (RAG), and Prompt Engineering, attendees gained clarity on when and how to use each method effectively. The session featured practical demos, cost-benefit analysis, and a decision-making framework to guide real-world implementation.",
     ],
     communityBenefits: [
       "Weekly sessions with expert insights",
@@ -328,10 +313,7 @@ export const eventsData = [
     overview:
       " Build with purpose—AI tools for public good..",
     objectives: [
-      "Build autonomous RAG-powered AI apps",
-      "Apply RAG to real-world public use cases",
-      "Learn data structuring for RAG workflows",
-      "Gain confidence in deployment",
+      "This full-day workshop was designed to help participants move from theory to execution by building practical RAG-powered applications. Attendees worked on real datasets and use cases, learning how to apply Retrieval-Augmented Generation to solve problems in public services, governance, and education. It was a milestone session in hands-on AI development.",
     ],
     communityBenefits: [
       "Weekly hands-on learning",
@@ -367,11 +349,7 @@ export const eventsData = [
     overview:
       " Decode decisions—learn the logic behind the models",
     objectives: [
-      "Understand regression and prediction",
-      "Learn why SVMs are powerful for classification",
-      "Discover how decision trees work",
-      "Compare strengths and weaknesses",
-      "Choose the right algorithm for real-world problems",
+      "This session introduced participants to the core principles of machine learning algorithms, including regression, support vector machines (SVMs), and decision trees. Through visual examples and practical comparisons, attendees learned how these models work, when to use them, and how to evaluate their strengths and limitations in real-world scenarios.",
     ],
     communityBenefits: [
       "Weekly sessions with foundational topics",
@@ -403,10 +381,7 @@ export const eventsData = [
     overview:
       "Focus where it matters—unlock the power of attention. ",
     objectives: [
-      "Understand attention mechanism",
-      "Learn how transformers process sequences",
-      "Explore transformer applications",
-      "Explain the architecture in simple terms",
+      "This session unpacked the inner workings of transformers—the architecture behind today’s most powerful AI models. Participants explored the attention mechanism, understanding how it enables models to process sequences without relying on recurrence. The session bridged theory and application, helping attendees grasp the relevance of transformers in NLP, computer vision, and more.",
     ],
     communityBenefits: [
       "Weekly sessions with advanced topics",
@@ -436,10 +411,7 @@ export const eventsData = [
     overview:
       " Smarter tweaks, faster results—fine-tune with precision.",
     objectives: [
-      "Understand when to fine-tune",
-      "Learn LoRA and adapters",
-      "Use lightweight techniques for customization",
-      "Explore real-world applications",
+      "This session explored how to make AI model training more efficient and impactful. Participants learned when full fine-tuning is necessary, and when lightweight alternatives like LoRA and adapters can deliver similar results with lower cost and effort. The session emphasized practical strategies for customizing models in real-world projects.",
     ],
     communityBenefits: [
       "Weekly sessions with practical topics",
@@ -469,10 +441,7 @@ export const eventsData = [
     overview:
 "Train like a pro—build pipelines that perform" ,
    objectives: [
-      "Understand optimizers",
-      "Learn loss function roles",
-      "Explore batching techniques",
-      "Design efficient training pipelines",
+      "This session offered a practical deep dive into the core components of training pipelines—optimizers, loss functions, and batching. Participants learned how these elements influence model performance, training speed, and overall efficiency. The session emphasized hands-on understanding and design strategies for building robust, end-to-end ML workflows.",
     ],
     communityBenefits: [
       "Weekly applied learning",
@@ -503,10 +472,7 @@ export const eventsData = [
     overview:
       " Your data, your model—fine-tuning made practical.",
     objectives: [
-      "Prepare custom datasets",
-      "Understand fine-tuning process",
-      "Evaluate and optimize models",
-      "Deploy fine-tuned models",
+      "This full-day workshop gave participants hands-on experience with fine-tuning small language models using Hugging Face. From preparing custom datasets to deploying trained models, the session walked through every step of the process. It was a practical, builder-focused event designed to help developers take control of model behavior and performance.",
     ],
     communityBenefits: [
       "Hands-on sessions",
@@ -537,10 +503,7 @@ export const eventsData = [
     overview:
 "Deploy with confidence—optimize for real-world speed",
     objectives: [
-      "Understand inference-ready models",
-      "Learn the inference pipeline",
-      "Implement efficient inference using tools",
-      "Optimize performance with quantization and batching",
+      "This session explored the final step in the model development lifecycle—inference. Participants learned how to deploy fine-tuned models efficiently, understand the inference pipeline, and optimize performance using industry-standard tools. It was a practical, deployment-focused session designed to help developers bring their models into production with confidence.",
     ],
     communityBenefits: [
       "Deployment-focused sessions",
