@@ -28,13 +28,9 @@ export function TestimonialCard({
       </div>
 
       <div className="flex w-full items-center justify-start gap-5 select-none">
-        <Image
-          width={40}
-          height={40}
-          src={"/images/team2.jpg"}
-          alt={name}
-          className="size-10 rounded-full object-cover ring-1 ring-blue-500/20 ring-offset-2"
-        />
+        <div className="w-10 aspect-square rounded-full bg-black flex justify-center items-center">
+          {name.charAt(0)}
+        </div>
 
         <div>
           <p className="text-black font-medium">{name}</p>
